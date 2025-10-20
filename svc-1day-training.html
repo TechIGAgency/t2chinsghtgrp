@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>HighTech - IT Solutions Website Template</title>
+        
+        <!-- startFavicon / Browser tab icon -->
+        <!-- Using your image at img/Browser-tab-icon.jpeg. For best results consider adding a .ico or PNG sized versions (favicon.ico, favicon-32x32.png). -->
+        <link rel="icon" href="img/Browser-tab-icon-live-gd.png" type="image/png">
+        <link rel="shortcut icon" href="img/Browser-tab-icon-live-gd.png" type="image/png">
+        <link rel="apple-touch-icon" href="img/Browser-tab-icon-live-gd.png">       
+        <!-- end Favicon / Browser tab icon -->
+                
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                    <div class="top-info">
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Serving clients remotely & in-person</small>
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>contact@techinsightgroup.com</small>
+                    </div>
+                    <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div>
+                    <div class="top-link">
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-primary">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-white fw-bold">Tech-<span class="text-secondary">Insight</span>-Group</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <!--<a href="service.html" class="nav-item nav-link active">Services</a>-->
+                            <!--<a href="project.html" class="nav-item nav-link">Projects</a>-->
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                                    <div class="dropdown-menu rounded">
+                                        <a href="svc-consulting.html" class="dropdown-item">Consulting</a>
+                                        <a href="svc-certification.html" class="dropdown-item">Certification Programs</a>
+                                        <a href="svc-1day-training.html" class="dropdown-item">Accelerated 1-Day Courses</a>
+                                        <!--<a href="404.html" class="dropdown-item">404 Page</a>-->
+                                </div>
+                            </div>                            
+                            <!--<a href="project.html" class="nav-item nav-link">Projects</a>-->
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blogs</a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="blog.html" class="dropdown-item">AI & GenAI</a>
+                                    <!-- <a href="team.html" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                    <a href="404.html" class="dropdown-item">404 Page</a>-->
+                                </div>
+                            </div> 
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex flex-shirink-0">
+                        <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                            <a href="" class="position-relative animated tada infinite">
+                                <i class="fa fa-phone-alt text-white fa-2x"></i>
+                                <div class="position-absolute" style="top: -7px; left: 20px;">
+                                    <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column pe-4 border-end">
+                            <span class="text-white-50">Have any questions?</span>
+                            <span class="text-secondary">Call: +1 (201) 948-4170</span>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center ms-4 ">
+                            <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header py-5">
+            <div class="container text-center py-5">
+                <h1 class="display-2 text-white mb-4 animated slideInDown">Services</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item" aria-current="page">Services</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+
+        <!-- Fact Start -->
+         <!-- 
+        <div class="container-fluid bg-secondary py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">99</h1>
+                            <h5 class="text-white mt-1">Success in getting happy customer</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">25</h1>
+                            <h5 class="text-white mt-1">Thousands of successful business</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">120</h1>
+                            <h5 class="text-white mt-1">Total clients who love HighTech</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">5</h1>
+                            <h5 class="text-white mt-1">Stars reviews given by satisfied clients</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Fact End -->
+
+
+        <!-- One-Day Training Services Start -->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h1 class="text-primary">Our One-Day Training Services</h1>
+                    <h4>Globally recognized for delivering impactful one-day learning experiences in:</h4>
+                </div>
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Design and Deploy a Real-Time Intelligence Solution Using Microsoft Fabric</h4>
+                                    <p class="mb-4">This intermediate-level custom training equips learners to build and deploy a real-time intelligence solution using Microsoft Fabric. Participants will prepare a Real-Time Analytics environment, ingest and process streaming data with Eventstreams, manage and query data in Eventhouse, and build dynamic dashboards for live insights. The course also introduces Activator for triggering downstream actions based on real-time events.</p>
+                                    <a href="1d-fb-realtime.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fa fa-file-code fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Design and Deploy a Data Warehouse Using Microsoft Fabric</h4>
+                                    <p class="mb-4">This intermediate-level custom training focuses on implementing a data warehouse in Microsoft Fabric by guiding learners through creating a warehouse, loading and transforming data—including Slowly Changing Dimension (SCD) Type 2 techniques, modeling a star schema, querying with T-SQL, and managing security, all within Fabric’s unified analytics environment.</p>
+                                    <a href="1d-fb-dw.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fa fa-external-link-alt fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Design and Deploy a Lakehouse Architecture Using Microsoft Fabric</h4>
+                                    <p class="mb-4">This intermediate-level custom training teaches learners how to implement a lakehouse architecture using Microsoft Fabric, enabling unified data storage, transformation, and analytics. Participants will create and manage lakehouses, ingest data with Dataflows Gen2, transform and query data using Apache Spark and Delta Lake tables, and orchestrate workflows with medallion architecture design.</p>
+                                    <a href="1d-fb-lh.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Design and Deploy Data Science & ML Workflows for AI in Microsoft Fabric</h4>
+                                    <p class="mb-4">This intermediate-level custom training guides learners through building and operationalizing a full data science and machine learning solution using Microsoft Fabric. Participants will ingest and explore data with Lakehouses and Notebooks, prepare it using Data Wrangler, train and track models via MLflow, and deploy them for batch predictions—all within Fabric’s unified analytics environment.</p>
+                                    <a href="1d-fb-dsc.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <!--  <i class="fa fa-envelope-open fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Modernizing SQL Workloads: Migrating to Azure SQL Database</h4>
+                                    <p class="mb-4">This intermediate-level custom training prepares learners to assess and migrate SQL Server workloads to Azure SQL Database using both IaaS and PaaS strategies. Participants will design a migration plan, evaluate database readiness, provision Azure SQL resources, and execute migrations to Azure Virtual Machines, Azure SQL Database, and Azure SQL Managed Instance. The course also covers post-migration configuration and disaster recovery setup.</p>
+                                    <a href="1d-mgrt-sql-wl-2-az-sql.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Modernizing PostgreSQL Workloads: Configuring and Migrating to Azure Database for PostgreSQL</h4>
+                                    <p class="mb-4">This intermediate-level custom training equips data engineers and architects to configure, secure, and migrate PostgreSQL workloads to Azure Database for PostgreSQL. Participants will learn to assess on-prem environments, choose the right deployment model, and implement scalable, cloud-native solutions with governance, performance, and cost-efficiency in mind.</p>
+                                    <a href="1d-confg-mgrt-wl-2-az-sql-postgres.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Building Generative AI Applications with Azure AI Foundry</h4>
+                                    <p class="mb-4">This intermediate-level custom training offers a comprehensive, hands-on journey through building generative AI applications in Azure using the AI Foundry platform. Participants will learn to plan and prepare development environments, select and deploy models from a curated catalog, build applications using the Azure AI Foundry SDK, and structure interactions with prompt flow. The course also covers Retrieval Augmented Generation (RAG) using custom data, fine-tuning open-source language models, implementing responsible AI practices to mitigate risks, and evaluating copilot performance for continuous improvement, all within a scalable, enterprise-ready framework</p>
+                                    <a href="1d-az-ai-fdr-dvlp-genai-app.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Building AI-Driven Applications with Azure Database for PostgreSQL</h4>
+                                    <p class="mb-4">This intermediate-level custom training, covers the end-to-end integration of Azure AI services with Azure Database for PostgreSQL – Flexible Server, enabling participants to build intelligent, data-driven applications. Key concepts include deploying generative AI using Azure AI extensions, implementing semantic search with vector embeddings, applying summarization and sentiment analysis to text data, extracting structured insights through language understanding, translating multilingual content for global accessibility, and operationalizing machine learning models via AutoML for real-time inferencing, all directly within PostgreSQL workflows.</p>
+                                    <a href="1d-az-ai-app-postgrdb.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Designing Intelligent Knowledge Mining Solutions with Azure AI Search</h4>
+                                    <p class="mb-4">This intermediate-level custom training, covers the full lifecycle of implementing intelligent search with Azure AI Search, including solution architecture, indexing strategies, custom skill integration, enrichment pipelines, and knowledge store creation; learners also explore advanced capabilities like semantic ranking, vector-based retrieval, multilingual search, external data ingestion via Azure Data Factory, and performance optimization to build scalable, AI-enhanced search experiences across enterprise scenarios</p>
+                                    <a href="1d-az-ai-search-knowled-ming.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Developing AI Agents on Azure: From Prompt to Context Engineering to Production</h4>
+                                    <p class="mb-4">This intermediate-level custom training, focuses on designing and deploying intelligent AI agents using Azure AI Foundry and the Microsoft Agent Framework. Participants will learn to build agents with the Azure AI Foundry Agent Service, integrate custom and MCP-hosted tools, and orchestrate multi-agent systems for complex task execution. Key features include agent-to-agent (A2A) communication protocols, remote agent discovery, and SDK-based orchestration for scalable, collaborative AI solutions, all within a secure, enterprise-ready Azure environment.</p>
+                                    <a href="1d-az-ai-fdr-devp-agent.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Developing Computer Vision Solutions with Azure AI Services</h4>
+                                    <p class="mb-4">This intermediate-level custom training covers the end-to-end development of computer vision solutions using Azure AI Vision, focusing on key technical concepts such as image analysis with prebuilt models, optical character recognition (OCR) for text extraction, face detection and emotion recognition, custom image classification and object detection, and video content analysis using Azure Video Indexer. Participants will also learn to integrate these capabilities into generative AI applications and explore image generation using AI models, all while applying best practices for scalability, cost optimization, and data privacy compliance</p>
+                                    <a href="1d-bld-az-ai-cv-app.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Creating Intelligent Agents with Microsoft Copilot Studio</h4>
+                                    <p class="mb-4">This intermediate-level custom training covers the end-to-end process of building intelligent, no-code agents in Microsoft Copilot Studio, focusing on key technical concepts such as topic creation and management, entity and variable handling for dynamic conversations, agent design principles for effective user interaction, integration with Power Automate and Omnichannel for enhanced functionality, deployment within Dataverse for Teams, and autonomous agent development using Generative AI and natural language inputs.</p>
+                                    <a href="1d-create-agt-in-ms-std.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Implementing Scalable Data Analytics Solutions with Azure Databricks</h4>
+                                    <p class="mb-4">This intermediate-level custom training covers the full lifecycle of building scalable analytics solutions in Azure Databricks, starting with workspace navigation and cluster setup, followed by data ingestion and exploratory analysis using Spark DataFrames, SQL, and PySpark. Participants then dive into distributed processing with Apache Spark, manage reliable datasets using Delta Lake’s ACID transactions and time travel, and orchestrate real-time and batch workflows through Lakeflow declarative pipelines and Jobs.</p>
+                                    <a href="1d-az-impl-dt-analt-with-dtbricks.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Designing Generative AI Pipelines in Azure Databricks: From Foundation Models to Deployment</h4>
+                                    <p class="mb-4">This intermediate-level custom training focuses on implementing generative AI solutions using Azure Databricks, emphasizing the full lifecycle of Large Language Models (LLMs). Key technical concepts include natural language processing (NLP) tasks, Retrieval Augmented Generation (RAG), multi-stage reasoning, and fine-tuning LLMs for domain-specific applications. Learners also explore model evaluation techniques—including automated methods like LLM-as-a-judge, alongside responsible AI principles and security tooling.</p>
+                                    <a href="1d-az-impl-genai-engring-with-dtbricks.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Building Machine Learning Solutions with Azure Databricks: From Data to Deployment</h4>
+                                    <p class="mb-4">This intermediate-level custom covers the full lifecycle of building machine learning solutions using Azure Databricks, starting with scalable data analytics via Apache Spark and progressing through model development, evaluation, and deployment. Participants learn to train ML and deep learning models using popular frameworks, manage experiments and model versions with MLflow, optimize performance through hyperparameter tuning and AutoML, and operationalize models for real-time decision-making.</p>
+                                    <a href="1d-az-bld-ml-slt-with-dtbricks.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Transform and Visualize Your Data with Power BI</h4>
+                                    <p class="mb-4">This beginner-level custom training covers the full technical lifecycle of preparing and visualizing data with Power BI and Microsoft Fabric. Participants will learn to connect to structured and unstructured data sources, clean and transform data using Power Query, and build semantic models for scalable reporting. The course emphasizes designing interactive reports with advanced filtering, dynamic visuals, and performance optimization. Learners will also explore Copilot integration for natural language querying and report generation.</p>
+                                    <a href="1d-pbi-prep-vsliz-data.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Design and Deploy AI-Powered Information Extraction in Azure</h4>
+                                    <p class="mb-4">This intermediate-level custom training empowers Data, Analyst, ML & AI Engineers and Developers to build intelligent solutions that extract structured insights from unstructured content using Azure AI. Key concepts include multimodal content analysis with Azure AI Content Understanding, client application development via REST APIs, and leveraging prebuilt and custom document intelligence models for form data extraction. Participants also learn to implement scalable knowledge mining solutions using Azure AI Search, enabling enriched, searchable data.</p>
+                                    <a href="1d-dvlp-az-ai-info-extrctx-slt.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Design and Deploy Natural Language Solutions with Azure AI</h4>
+                                    <p class="mb-4">This intermediate-level custom training equips learners to build intelligent language solutions using Azure AI Language and Speech services. Key concepts include text analytics (sentiment, key phrases, entities), question answering, conversational language understanding, custom text classification, and named entity recognition. It also covers multilingual translation for both text and speech, speech-to-text and text-to-speech integration, and audio-enabled generative AI applications that interpret tone, intent, and spoken input to deliver dynamic, voice-driven experiences.</p>
+                                    <a href="1d-dvlp-az-ai-nlang-slt.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    
+                </div>
+            </div>
+        </div>
+        <!-- One-Day Training Services End -->
+
+        <!-- Footer Start -->
+         <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html">
+                            <!-- <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1> -->
+                            <h1 class="text-white fw-bold">Tech-<span class="text-secondary">Insight</span>-Group</h1>
+                        </a>
+                        <p class="mt-4 text-light">Stay connected, follow us on social media!</p>
+                        <div class="d-flex hightech-link">
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Short Link</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="about.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>About us</a>
+                            <a href="contact.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
+                            <a href="service.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Services</a>
+                            <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Projects</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Latest Blog</a> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Help Link</a>
+                        <div class="mt-4 d-flex flex-column help-link">
+                           <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of use</a>-->
+                            <a href="privacy-policy.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of use & Privacy Policy</a>
+                            <!--<a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Helps</a> -->
+                            <a href="faq.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>FAQs</a>
+                            <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact</a>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Contact Us</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> 971 US HIGHWAY 202N STE N BRANCHBURG, NEW JERSEY 08876</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> +1 (201) 948-4170</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> contact@techinsightgroup.com</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Tech-Insight-Group</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <span class="text-light">Designed By<a href="https://htmlcodex.com" class="text-secondary">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
