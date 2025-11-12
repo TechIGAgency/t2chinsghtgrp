@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>HighTech - IT Solutions Website Template</title>
+        
+        <!-- startFavicon / Browser tab icon -->
+        <!-- Using your image at img/Browser-tab-icon.jpeg. For best results consider adding a .ico or PNG sized versions (favicon.ico, favicon-32x32.png). -->
+        <link rel="icon" href="img/Browser-tab-icon-live-gd.png" type="image/png">
+        <link rel="shortcut icon" href="img/Browser-tab-icon-live-gd.png" type="image/png">
+        <link rel="apple-touch-icon" href="img/Browser-tab-icon-live-gd.png">       
+        <!-- end Favicon / Browser tab icon -->
+                
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                    <div class="top-info">
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Serving clients remotely & in-person</small>
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>contact@techinsightgroup.com</small>
+                    </div>
+                    <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div>
+                    <div class="top-link">
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-primary">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-white fw-bold">Tech-<span class="text-secondary">Insight</span>-Group</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <!--<a href="service.html" class="nav-item nav-link active">Services</a>-->
+                            <!--<a href="project.html" class="nav-item nav-link">Projects</a>-->
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                                    <div class="dropdown-menu rounded">
+                                        <a href="svc-consulting.html" class="dropdown-item">Consulting</a>
+                                        <a href="svc-certification.html" class="dropdown-item">Certification Programs</a>
+                                        <a href="svc-1day-training.html" class="dropdown-item">Accelerated 1-Day Courses</a>
+                                        <!--<a href="404.html" class="dropdown-item">404 Page</a>-->
+                                </div>
+                            </div>                            
+                            <!--<a href="project.html" class="nav-item nav-link">Projects</a>-->
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blogs</a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="blog.html" class="dropdown-item">AI & GenAI</a>
+                                    <!-- <a href="team.html" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                    <a href="404.html" class="dropdown-item">404 Page</a>-->
+                                </div>
+                            </div> 
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex flex-shirink-0">
+                        <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                            <a href="" class="position-relative animated tada infinite">
+                                <i class="fa fa-phone-alt text-white fa-2x"></i>
+                                <div class="position-absolute" style="top: -7px; left: 20px;">
+                                    <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column pe-4 border-end">
+                            <span class="text-white-50">Have any questions?</span>
+                            <span class="text-secondary">Call: +1 (201) 948-4170</span>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center ms-4 ">
+                            <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header py-5">
+            <div class="container text-center py-5">
+                <h1 class="display-2 text-white mb-4 animated slideInDown">Code Execution with MCP: A Leaner, Smarter Way to Build AI Agents</h1>
+                <!--<nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item" aria-current="page">Services</li>
+                    </ol>
+                </nav>-->
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+
+        <!-- Fact Start -->
+         <!-- 
+        <div class="container-fluid bg-secondary py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">99</h1>
+                            <h5 class="text-white mt-1">Success in getting happy customer</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">25</h1>
+                            <h5 class="text-white mt-1">Thousands of successful business</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">120</h1>
+                            <h5 class="text-white mt-1">Total clients who love HighTech</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">5</h1>
+                            <h5 class="text-white mt-1">Stars reviews given by satisfied clients</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Fact End -->
+
+
+        <!-- Services Start -->
+<div class="container-fluid py-5 my-5 d-flex justify-content-center">
+    <div class="container pt-5" style="max-width: 1000px;">
+        <div class="row justify-content-center">
+            <div class="col-12 wow fadeIn" data-wow-delay=".5s">
+                <!-- Your full content goes here -->
+
+                <h2 class="text-primary mt-4">Code Execution with MCP: <br>A Leaner, Smarter Way to Build AI Agents</h2>
+                    <img src="img/MCP1.png" class="img-fluid w-100 rounded" alt="">
+                    <h3 class="text-primary mt-4"><b>Table of Contents:</b></h3>
+                    <ul class="mb-4">
+                        
+                        <li style="color: #000000;">Introduction</li>
+                        <li style="color: #000000;">What Is MCP (Definition, core concept, Adoption)?</li>
+                        <li style="color: #000000;">Introducing Code Execution with MCP?</li>
+                        <li style="color: #000000;">Why Code Execution with MCP Is an Improved Approach</li>
+                        <li style="color: #000000;">Breakdown the Core Concepts Code Execution with MCP</li>
+                        <li style="color: #000000;">Full Example Scenario</li>
+                        <li style="color: #000000;">Limitations & Considerations before application</li>
+                        <li style="color: #000000;">Conclusion</li>
+                        <li style="color: #000000;">Partnering with <a href="https://www.techinsightgroup.com/">Tech-Insight-Group</a>: Your RAG Implementation Ally</li>
+                        <li style="color: #000000;">Call to action</li>
+
+                    </ul>
+
+
+                <p style="color: #000000; text-align: justify;"><a href="https://www.linkedin.com/company/tech-insight-group/?viewAsMember=true">Stay in the loop, follow us on LinkedIn to catch fresh articles every week.</a></p>
+
+                <p style="color: #000000; text-align: justify;">If you're looking to get started with Generative AI, Agentic AI workflows, or migrating your workloads to Microsoft Fabric, partnering with <a href="https://www.techinsightgroup.com/svc-consulting.html">Tech-Insight-Group LLC</a> is your strategic gateway to expert-led consulting and hands-on training services tailored for real-world impact.</p>
+
+                <h5 class="text-primary mt-4">Introduction:</h5>
+                <p style="color: #000000; text-align: justify;">This article was born out of a real-world challenge my team and I faced with a customer over the past two weeks. Despite our best efforts; including internal troubleshooting, leveraging Copilot, and consulting peers; we struggled to help the customer optimize costs and maintain strict data privacy within their MCP-based agent workflows. The turning point came when I discovered an insightful article published on Nov 04, 2025 from Anthropic that introduced a new paradigm: Code Execution with MCP.</p>
+
+                <p style="color: #000000; text-align: justify;">It offered not just a technical solution, but a conceptual shift in how agents interact with tools; one that directly addressed the limitations we were up against. I’m sharing this here because I know others are likely facing similar constraints, and this approach could be the breakthrough they need. What follows is a practical, field-tested breakdown of how Code Execution with MCP works, why it matters, and how to apply it effectively.</p>
+
+
+                <h5 class="text-primary mt-4">What is MCP?</h5>
+
+                <p style="color: #000000; text-align: justify;">To begin, let’s define what MCP entails. The <a href="https://modelcontextprotocol.io/docs/getting-started/intro">Model Context Protocol (MCP)</a> is a pattern for structuring AI agents by injecting tools, memory, and system prompts into a shared context window. It’s been widely adopted across frameworks like LangChain, CrewAI, Semantic Kernel, Microsoft Autogen, and even Claude’s Skills.</p>
+                
+                <h5 class="text-primary mt-4">MCP’s Business Impact: <br>Accelerating AI-Driven Process Automation Through Contextual Tooling</h5>
+                                
+                <p style="color: #000000; text-align: justify;">MCP enhances enterprise AI workflows by embedding tools directly into the model’s context, making them dynamically discoverable and immediately actionable. This contextual tooling empowers agents to operate with flexible, swappable components like tools, prompts, and memory without hardcoding logic, which accelerates iteration and reduces engineering overhead. Its support for multi-agent coordination allows shared context across agents, enabling collaborative reasoning and seamless handoffs in complex business processes like claims handling, customer support, or procurement workflows.</p>
+                
+                
+                <h5 class="text-primary mt-4">The Hidden Costs of MCP: <br>Why Token Overhead and Execution Obscurity Undermine Agent Scalability</h5>
+                <p style="color: #000000; text-align: justify;">While MCP offers structural clarity, its implementation introduces significant drawbacks for enterprise AI workflows. Injecting full tool specs and memory into every prompt consumes up to 60–70% of the model’s context window, limiting reasoning depth and inflating compute costs. Frameworks like LangChain further obscure execution flow, complicating debugging and slowing performance.</p>
+                     
+                <p style="color: #000000; text-align: justify;">Below is an example illustrating how agents can become overwhelmed by excessive prompt injections and context stacking. As tool definitions, memory buffers, and message history accumulate in the context window, the agent’s reasoning becomes prone to misalignment, inefficiency, and increased risk of prompt injection. This architecture highlights the fragility of context-based orchestration when scaled across complex workflows.</p>
+                
+                <figure>
+                <img src="img/mcp.webp" class="img-fluid w-100 rounded" alt="MCP illustration">
+                <figcaption class="text-center">Source: anthropic.com/engineering/code-execution-with-mcp</figcaption>
+                </figure>
+                
+                <p style="color: #000000; text-align: justify;">More critically, placing tool definitions in context exposes agents to prompt injection risks, raising governance and security concerns. These limitations have led many AI engineers to reconsider MCP’s role in scalable agent design. As orchestration grows more opaque and expensive, the industry is shifting toward approaches that prioritize clarity, efficiency, and modular control.</p>
+               
+               <h5 class="text-primary mt-4">Introducing: <br>Code Execution with MCP for Context Efficiency</h5>
+               <p style="color: #000000; text-align: justify;">As code execution environments become increasingly common for AI agents, a highly effective solution is to expose MCP (Model Context Protocol) servers as code APIs instead of direct tool calls. </p>
+               
+
+
+                <h5 class="text-primary mt-4">What Is “Code Execution with MCP”?</h5>
+                <p style="color: #000000; text-align: justify;"><b>Code Execution with MCP</b> is a modern approach to building AI agents that interact with external tools and systems using the Model Context Protocol (MCP). Instead of relying on direct tool calls embedded in the model’s context window, agents write and execute code (e.g., TypeScript or Python) to interact with MCP servers.</p>
+
+                <h5 class="text-primary mt-4">Code Execution with MCP: Implementation Strategy</h5>  
+                <p style="color: #000000; text-align: justify;">One practical method is to <b>generate a file tree of all available tools from connected MCP servers</b>, making them easily discoverable and callable. This approach streamlines orchestration, enhances modularity, and sets the stage for scalable, low-latency agent design.</p>
+
+                <p style="color: #000000; text-align: justify;"><b>Below is an example implementation using file tree:</b> Each .ts file represents a callable tool exposed by an MCP server. The agent can:</p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;">Dynamically discover available tools via directory introspection.</li>
+                    <li style="color: #000000; text-align: justify;">Generate code to invoke specific functions (e.g., search_web("Taipei weather")).</li>
+                    <li style="color: #000000; text-align: justify;">Chain tool outputs across folders (e.g., fetch → clean → summarize).</li>
+                </ul>     
+
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+📁 mcp-tools/
+├── 📁 data/
+│   ├── 📄 fetch_csv.ts
+│   ├── 📄 clean_dataframe.ts
+│   └── 📄 summarize_table.ts
+├── 📁 web/
+│   ├── 📄 search_web.ts
+│   ├── 📄 extract_links.ts
+│   └── 📄 scrape_content.ts
+├── 📁 finance/
+│   ├── 📄 get_stock_price.ts
+│   ├── 📄 convert_currency.ts
+│   └── 📄 forecast_trends.ts
+├── 📁 utils/
+│   ├── 📄 log_event.ts
+│   ├── 📄 format_date.ts
+│   └── 📄 generate_uuid.ts
+</code></pre>
+
+                <p style="color: #000000; text-align: justify;"><b>This means:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;">Agents <b>write code</b> to call tools.</li>
+                    <li style="color: #000000; text-align: justify;">Tool definitions are <b>discovered and loaded on demand</b>.</li>
+                    <li style="color: #000000; text-align: justify;">Intermediate results are <b>processed in code</b>, not passed through the model</li>
+                </ul>  
+
+                <p style="color: #000000; text-align: justify;">Now, let’s go over the three points above for a clearer understanding. At the end, I’ll also provide a full example scenario to reinforce the concepts.</p>
+
+                <p style="color: #000000; text-align: justify;"><b>Agents Write Code to Call Tools:</b> The agent doesn’t need to load the full schema of getSheet into the model context. It simply writes code that calls the tool directly. This is more efficient and flexible.</p>
+
+                <p style="color: #000000; text-align: justify;"><b>Example:</b> Instead of using declarative tool calls inside the model context, the agent writes executable TypeScript code:</p>
+
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+import * as gdrive from './servers/google-drive';
+import * as salesforce from './servers/salesforce';
+
+const sheetData = await gdrive.getSheet({ sheetId: 'orders-2025' });
+</code></pre>
+
+
+                <p style="color: #000000; text-align: justify;"><b>Tool Definitions Are Discovered and Loaded on Demand:</b> Instead of loading every tool’s full schema (which could be thousands of tokens), the agent searches for tools by name or description. It only loads the full definition if needed. This keeps the context lean and fast.</p>
+                
+                <p style="color: #000000; text-align: justify;"><b>Example:</b> The agent uses a search_tools function to find the right tool:</p>
+
+
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+const tools = await search_tools({ query: 'get sheet data', detailLevel: 'name-only' });
+</code></pre>
+
+
+                <p style="color: #000000; text-align: justify;"><b>Intermediate Results Are Processed in Code, Not Passed Through the Model:</b> The full sheet might contain 10,000 rows. Instead of passing all that into the model (which would explode the token count), the agent filters it in code and only returns the top 5 pending orders. The model sees just what it needs.</p>
+                
+                <p style="color: #000000; text-align: justify;"><b>Example:</b> After fetching the sheet, the agent filters the data before returning anything to the model:</p>
+
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+const pendingOrders = sheetData.filter(row => row.Status === 'pending');
+console.log(pendingOrders.slice(0, 5));
+</code></pre>
+
+                <p style="color: #000000; text-align: justify;"><b>What It Means:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>Agents write code to call tools</b> → Instead of declarative tool calls in the model context, agents generate executable code (e.g., TypeScript) to interact with tools.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Tool definitions are discovered and loaded on demand</b> → Agents use search_tools to find relevant tools without loading full schemas unless needed.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Intermediate results are processed in code, not passed through the model</b>- → Large datasets (e.g., spreadsheets, transcripts) are filtered, joined, or transformed in code before minimal output is returned to the model.</li>
+                </ul>  
+
+                <p style="color: #000000; text-align: justify;">This design allows agents to write and execute code that interacts with MCP servers dynamically.</p>
+
+
+
+
+                <h5 class="text-primary mt-4">Why It’s an Improvement version of MCP</h5>   
+ 
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>Massive token savings (up to 98.7%):</b> Agents process data in code instead of passing full tool schemas or large results into the model, drastically reducing token usage.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Faster agent responses due to leaner context:</b> With fewer tokens and no bloated context, agents respond quicker and scale better under load.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Better privacy: sensitive data stays out of model context:</b> Personally identifiable information (PII) like emails or phone numbers can be tokenized or filtered in code before reaching the model.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Reusable skills: agents can save and reuse logic as modular functions:</b> Common workflows (e.g., “save sheet as CSV”) can be stored as .ts files and reused across agents, improving maintainability.</li>
+                    <li style="color: #000000; text-align: justify;"><b>State persistence: agents can write to files and resume tasks later:</b> Agents can store intermediate results or checkpoints in the filesystem, enabling long-running or resumable workflows.</li>
+                    <li style="color: #000000; text-align: justify;"><b>More powerful logic: loops, retries, and conditionals handled in code:</b> Agents can use native control structures (e.g., while, if, try/catch) to manage complex flows without relying on model chaining.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Dynamic tool discovery: agents explore tool directories like a filesystem:</b> Instead of loading all tools upfront, agents search and load only what’s needed using search_tools, keeping context efficient and modular.</li>                                  
+                </ul>                 
+
+                <h5 class="text-primary mt-4">💡 Full above Example Scenario</h5>
+
+                <p style="color: #000000; text-align: justify;"><b>Goal:</b> Find pending orders in a Google Sheet and update Salesforce.</p>
+
+
+                <p style="color: #000000; text-align: justify;"><b>What’s happening:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;">Tools are imported as code modules.</li>
+                    <li style="color: #000000; text-align: justify;">Only relevant rows are selected in code.</li>
+                    <li style="color: #000000; text-align: justify;">No need to pass full sheet or tool schemas into the model.</li>
+                </ul>  
+
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+import * as gdrive from './servers/google-drive';
+import * as salesforce from './servers/salesforce';
+
+const allRows = await gdrive.getSheet({ sheetId: 'orders-2025' });
+const pending = allRows.filter(row => row.Status === 'pending');
+
+await salesforce.updateRecord({
+  objectType: 'Order',
+  recordId: pending[0].id,
+  data: { status: 'follow-up initiated' }
+});
+</code></pre>
+
+                <h5 class="text-primary mt-4">Limitations & Considerations of Code Execution with MCP</h5>   
+                <p style="color: #000000; text-align: justify;">While this new approach offers significant efficiency and privacy gains, it also introduces operational and architectural considerations that teams must carefully manage.</p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>Infrastructure Overhead:</b> Requires a secure execution environment with sandboxing, resource limits, and monitoring to safely run agent-generated code.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Operational Complexity:</b> Adds engineering effort to manage file systems, execution runtimes, and error handling compared to simpler direct tool calls.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Model Awareness:</b> Agents must be designed to navigate file structures and understand code interfaces, which may require additional scaffolding or training.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Logging & Debugging:</b> Since intermediate results stay in the execution layer, debugging workflows may require explicit logging or tracing mechanisms.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Skill Management:</b> Persisted skills (saved functions) need versioning and organization to avoid duplication or outdated logic.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Tool Discovery Strategy:</b> Progressive disclosure via search_tools or filesystem exploration must be well-structured to avoid missing relevant tools.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Data Governance:</b> Tokenization and privacy-preserving flows must be carefully implemented to ensure sensitive data is never exposed to the model.</li>                                                                      
+                </ul>                 
+
+
+
+
+                <h5 class="text-primary mt-4">Conclusion</h5>  
+
+                <p style="color: #000000; text-align: justify;">Code Execution with MCP represents a transformative leap in how AI agents interact with tools; shifting from context-heavy, declarative calls to lightweight, executable logic that’s modular, secure, and efficient. By offloading computation and data handling to code, agents gain the ability to scale, preserve privacy, and execute complex workflows with precision. </p>
+                <p style="color: #000000; text-align: justify;">This approach not only reduces token usage and latency but also unlocks new patterns like reusable skills, persistent state, and dynamic tool discovery. For developers and architects building next-generation agents, embracing this model is key to delivering faster, smarter, and more maintainable AI systems.</p>
+
+                <h3 class="text-primary mt-4">Call To Action</h3>                 
+                
+
+                <h5 class="text-primary mt-4">💡 Ready to Take the Next Step?</h5>  
+
+                <p style="color: #000000; text-align: justify;">If you’re reading this to kick off your first AI, Data project, streamline your current workflow, or upskill your team for what’s next. <b>Tech-Insight-Group LLC</b> is here to help. We specialize in turning AI potential into practical impact through expert <a href="https://www.techinsightgroup.com/svc-consulting.html">consulting</a> and hands-on <a href="https://www.techinsightgroup.com/svc-1day-training.html">training</a>. Visit our services page to explore how we can support your journey from strategy to execution. Let’s build something extraordinary together.</p>               
+                
+                
+                <h5 class="text-primary mt-4">🙏 We welcome your feedback, let’s connect.</h5>  
+ 
+                <p style="color: #000000; text-align: justify;">Thank you for reading Code Execution with MCP: A Leaner, Smarter Way to Build AI Agents. If you found this article helpful, feel free to like, share, or leave a comment; we’d love to hear your thoughts.</p>
+                <p style="color: #000000; text-align: justify;">Kudos to our entire team for their dedication, and a special shoutout to <a href="https://www.linkedin.com/in/jeandjoseph/"> Jean Joseph</a>, our <b>Principal Data & AI Architect</b>, whose vision and technical leadership made this work possible.</p>
+                <p style="color: #000000; text-align: justify;">Here is the original public announcement from Anthropic: <a href="https://www.anthropic.com/engineering/code-execution-with-mcp">Code execution with MCP: building more efficient AI agents \ Anthropic</a></p>
+                 
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Services End -->
+
+
+        <!-- Footer Start -->
+         <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html">
+                            <!-- <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1> -->
+                            <h1 class="text-white fw-bold">Tech-<span class="text-secondary">Insight</span>-Group</h1>
+                        </a>
+                        <p class="mt-4 text-light">Stay connected, follow us on social media!</p>
+                        <div class="d-flex hightech-link">
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Short Link</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="about.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>About us</a>
+                            <a href="contact.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
+                            <a href="service.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Services</a>
+                            <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Projects</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Latest Blog</a> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Help Link</a>
+                        <div class="mt-4 d-flex flex-column help-link">
+                           <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of use</a>-->
+                            <a href="privacy-policy.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of use & Privacy Policy</a>
+                            <!--<a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Helps</a> -->
+                            <a href="faq.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>FAQs</a>
+                            <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact</a>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Contact Us</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> 971 US HIGHWAY 202N STE N BRANCHBURG, NEW JERSEY 08876</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> +1 (201) 948-4170</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> contact@techinsightgroup.com</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Tech-Insight-Group</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <span class="text-light">Designed By<a href="https://htmlcodex.com" class="text-secondary">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+
+</html>
+
+
+
+
