@@ -30,7 +30,9 @@ function loadNavbar(targetId = 'navbar') {
               <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blogs</a>
                 <div class="dropdown-menu rounded">
-                  <a href="blog.html" class="dropdown-item">All Blogs</a>
+                  <a href="blogAI.html" class="dropdown-item">AI, GenAI, ML, DL</a>
+                  <a href="blogData.html" class="dropdown-item">Data, ETL/ELT Pipelines</a>
+                  <a href="" class="dropdown-item">Analytics, Visualization</a>
                 </div>
               </div>
               <a href="contact.html" class="nav-item nav-link">Contact</a>
