@@ -22,7 +22,7 @@ function loadNavbar(targetId = 'navbar') {
               <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                 <div class="dropdown-menu rounded">
-                  <a href="ac-consulting.html" class="dropdown-item">Consulting</a>
+                  <a href="svc-consulting.html" class="dropdown-item">Consulting</a>
                   <a href="svc-certification.html" class="dropdown-item">Certification Programs</a>
                   <a href="svc-1day-training.html" class="dropdown-item">Accelerated 1-Day Courses</a>
                 </div>
@@ -67,3 +67,4 @@ function loadNavbar(targetId = 'navbar') {
     console.warn('Target container not found:', targetId);
   }
 }
+
