@@ -18,6 +18,7 @@ To finalize your booking and ensure a seamless experience, please provide the fo
 Within the next 24 hours, we’ll follow up to confirm your payment. Once finalized, we’ll promptly share your session logistics, including a detailed agenda, access instructions, and any applicable pre-session materials to help you prepare effectively.
   `.trim();
 
-  const mailtoLink = `mailto:contact@techinsightgroup.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const mailtoLink = `mailto:contactus@techinsightgroup.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   return mailtoLink;
 }
+
