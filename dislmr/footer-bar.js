@@ -32,7 +32,7 @@ function loadFooter(targetId = 'footer') {
             <div class="text-white mt-4 d-flex flex-column contact-link">
               <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i>971 US HIGHWAY 202N STE N BRANCHBURG, NEW JERSEY 08876</a>
               <a href="tel:+12019484170" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i>+1 (201) 948-4170</a>
-              <a href="mailto:contactus@techinsightgroup.com" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i>contact@techinsightgroup.com</a>
+              <a href="mailto:contactus@techinsightgroup.com" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i>contactus@techinsightgroup.com</a>
             </div>
           </div>
 
@@ -60,6 +60,7 @@ function loadFooter(targetId = 'footer') {
     console.warn('Footer target container not found:', targetId);
   }
 }
+
 
 
 
