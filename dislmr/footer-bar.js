@@ -35,6 +35,19 @@ function loadFooter(targetId = 'footer') {
               <a href="mailto:contact@techinsightgroup.com" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i>contact@techinsightgroup.com</a>
             </div>
           </div>
+
+
+          <hr class="text-light mt-5 mb-4">
+          <div class="row">
+              <div class="col-md-6 text-center text-md-start">
+                  <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Tech-Insight-Group</a>, All right reserved.</span>
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                  <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                  <span class="text-light">Designed By<a href="https://htmlcodex.com" class="text-secondary">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></span>
+              </div>
+          </div>          
+          
         </div>
       </div>
     </div>
@@ -47,3 +60,4 @@ function loadFooter(targetId = 'footer') {
     console.warn('Footer target container not found:', targetId);
   }
 }
+
