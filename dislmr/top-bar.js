@@ -10,7 +10,7 @@ function loadTopbar(targetId = 'topbar') {
             </small>
             <small class="me-3 text-white-50">
               <a href="mailto:contactus@techinsightgroup.com"><i class="fas fa-envelope me-2 text-secondary"></i></a>
-              contact@techinsightgroup.com
+              contactus@techinsightgroup.com
             </small>
           </div>
           <div class="top-link">
@@ -33,5 +33,6 @@ function loadTopbar(targetId = 'topbar') {
     console.warn('Topbar target container not found:', targetId);
   }
 }
+
 
 
