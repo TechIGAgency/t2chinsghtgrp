@@ -62,3 +62,4 @@ function loadFooter(targetId = 'footer') {
 }
 
 
+
