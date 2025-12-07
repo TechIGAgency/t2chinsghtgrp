@@ -9,10 +9,7 @@ function loadFooter(targetId = 'footer') {
             </a>
             <p class="mt-4 text-light">Stay connected, follow us on social media!</p>
             <div class="d-flex hightech-link">
-              <a href="https://www.facebook.com/TechInsightGroup" class="btn-light nav-fill btn btn-square rounded-circle me-2" target="_blank"><i class="fab fa-facebook-f text-primary"></i></a>
-              <a href="https://twitter.com/TechInsightGrp" class="btn-light nav-fill btn btn-square rounded-circle me-2" target="_blank"><i class="fab fa-twitter text-primary"></i></a>
-              <a href="https://www.instagram.com/TechInsightGroup" class="btn-light nav-fill btn btn-square rounded-circle me-2" target="_blank"><i class="fab fa-instagram text-primary"></i></a>
-              <a href="https://www.linkedin.com/in/jeandjoseph/" class="btn-light nav-fill btn btn-square rounded-circle me-0" target="_blank"><i class="fab fa-linkedin-in text-primary"></i></a>
+              <a href="https://www.linkedin.com/company/109503956/" class="btn-light nav-fill btn btn-square rounded-circle me-0" target="_blank"><i class="fab fa-linkedin-in text-primary"></i></a>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
