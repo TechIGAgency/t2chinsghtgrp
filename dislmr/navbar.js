@@ -23,9 +23,9 @@ function loadNavbar(targetId = 'navbar') {
               <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                 <div class="dropdown-menu rounded">
-                  <a href="svc-consulting.html" class="dropdown-item" target="_blank">Our Consulting Services</a>
-                  <a href="svc-certification.html" class="dropdown-item" target="_blank">Our Certification Programs</a>
-                  <a href="svc-1day-training.html" class="dropdown-item" target="_blank">Our Accelerated 1-Day Courses</a>
+                  <a href="svc-consulting.html" class="dropdown-item">Our Consulting Services</a>
+                  <a href="svc-certification.html" class="dropdown-item">Our Certification Programs</a>
+                  <a href="svc-1day-training.html" class="dropdown-item">Our Accelerated 1-Day Courses</a>
                                 
                   <!-- Request Services options -->
                   <a href="https://forms.office.com/r/Cp0cqKdQuh?origin=lprLink" class="dropdown-item" target="_blank">Request Consulting Services</a>
@@ -74,6 +74,7 @@ function loadNavbar(targetId = 'navbar') {
     console.warn('Target container not found:', targetId);
   }
 }
+
 
 
 
