@@ -17,7 +17,7 @@ function loadNavbar(targetId = 'navbar') {
                 <div class="dropdown-menu rounded">
                   <a href="about_tech_insight_group.html" class="dropdown-item">About Tech-Insight-Group</a>
                   <a href="about_ms_ai_cloud_partner.html" class="dropdown-item">About Microsoft AI Cloud Partner</a>
-                  <a href="OurTeamMembers.html" class="dropdown-item">Meet our expert Team</a>
+                  <!--<a href="OurTeamMembers.html" class="dropdown-item">Meet our expert Team</a>-->
                 </div>
               </div>
               <div class="nav-item dropdown">
@@ -74,6 +74,7 @@ function loadNavbar(targetId = 'navbar') {
     console.warn('Target container not found:', targetId);
   }
 }
+
 
 
 
