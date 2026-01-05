@@ -38,8 +38,9 @@ Note: All solutions are customized based on the information you provide. While w
 We look forward to partnering with you!
   `.trim();
 
-   const mailtoLink = `mailto:contactus@techinsightgroup.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+   const mailtoLink = `mailto:contact-us@techinsightgroup.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   return mailtoLink;
 }
+
 
 
