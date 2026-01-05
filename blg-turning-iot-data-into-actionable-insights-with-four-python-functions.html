@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Tech-Insight-Group – Advancing Data, AI & Visualization Through Consulting and Training Services</title>
+        
+        <!-- startFavicon / Browser tab icon -->
+        <!-- Using your image at img/Browser-tab-icon.jpeg. For best results consider adding a .ico or PNG sized versions (favicon.ico, favicon-32x32.png). -->
+        <link rel="icon" href="img/Browser-tab-icon-live-gd.png" type="image/png">
+        <link rel="shortcut icon" href="img/Browser-tab-icon-live-gd.png" type="image/png">
+        <link rel="apple-touch-icon" href="img/Browser-tab-icon-live-gd.png">       
+        <!-- end Favicon / Browser tab icon -->
+                
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                    <div class="top-info">
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Serving clients remotely & in-person</small>
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>contact@techinsightgroup.com</small>
+                    </div>
+                    <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div>
+                    <div class="top-link">
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-primary">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-white fw-bold">Tech-<span class="text-secondary">Insight</span>-Group</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <!--<a href="service.html" class="nav-item nav-link active">Services</a>-->
+                            <!--<a href="project.html" class="nav-item nav-link">Projects</a>-->
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                                    <div class="dropdown-menu rounded">
+                                        <a href="svc-consulting.html" class="dropdown-item">Consulting</a>
+                                        <a href="svc-certification.html" class="dropdown-item">Certification Programs</a>
+                                        <a href="svc-1day-training.html" class="dropdown-item">Accelerated 1-Day Courses</a>
+                                        <!--<a href="404.html" class="dropdown-item">404 Page</a>-->
+                                </div>
+                            </div>                            
+                            <!--<a href="project.html" class="nav-item nav-link">Projects</a>-->
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blogs</a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="blog.html" class="dropdown-item">AI & GenAI</a>
+                                    <!-- <a href="team.html" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                    <a href="404.html" class="dropdown-item">404 Page</a>-->
+                                </div>
+                            </div> 
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex flex-shirink-0">
+                        <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                            <a href="" class="position-relative animated tada infinite">
+                                <i class="fa fa-phone-alt text-white fa-2x"></i>
+                                <div class="position-absolute" style="top: -7px; left: 20px;">
+                                    <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column pe-4 border-end">
+                            <span class="text-white-50">Have any questions?</span>
+                            <span class="text-secondary">Call: +1 (201) 948-4170</span>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center ms-4 ">
+                            <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header py-5">
+            <div class="container text-center py-5">
+                <h1 class="display-2 text-white mb-4 animated slideInDown">Turning IoT Data into Actionable Insights with Four Python Functions: lambda, map, filter, reduce</h1>
+                <!--<nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item" aria-current="page">Services</li>
+                    </ol>
+                </nav>-->
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+
+        <!-- Fact Start -->
+         <!-- 
+        <div class="container-fluid bg-secondary py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">99</h1>
+                            <h5 class="text-white mt-1">Success in getting happy customer</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">25</h1>
+                            <h5 class="text-white mt-1">Thousands of successful business</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">120</h1>
+                            <h5 class="text-white mt-1">Total clients who love HighTech</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">5</h1>
+                            <h5 class="text-white mt-1">Stars reviews given by satisfied clients</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Fact End -->
+
+
+        <!-- Services Start -->
+<div class="container-fluid py-5 my-5 d-flex justify-content-center">
+    <div class="container pt-5" style="max-width: 1000px;">
+        <div class="row justify-content-center">
+            <div class="col-12 wow fadeIn" data-wow-delay=".5s">
+                <!-- Your full content goes here -->
+
+                <h2 class="text-primary mt-4">Turning IoT Data into Actionable Insights with Four Python Functions: lambda, map, filter, reduce</h2>
+                    <img src="img/4-python-functions.png" class="img-fluid w-100 rounded" alt="">
+                    <h3 class="text-primary mt-4"><b>Table of Contents:</b></h3>
+                    <ul class="mb-4">
+                        
+                        <li style="color: #000000;"><b>Introduction:</b> From Raw IoT Data to Real Decisions</li>
+                        <li style="color: #000000;"><b>lambda:</b> Inline Logic for Fast Transformations</li>
+                        <li style="color: #000000;"><b>map:</b> Apply Transformations at Scale</li>
+                        <li style="color: #000000;"><b>filter:</b> Isolate What Really Matters</li>
+                        <li style="color: #000000;"><b>reduce:</b> Summarize and Aggregate for Decisions</li>
+                        <li style="color: #000000;"><b>Putting It All Together:</b> A Mini IoT Processing Pipeline</li>
+                        <li style="color: #000000;">When to Use These Functions vs. Alternatives</li>
+                        <li style="color: #000000;">Conclusion</li>
+                        <li style="color: #000000;">Partnering with <a href="https://www.techinsightgroup.com/">Tech-Insight-Group</a>: Your Data Implementation Ally</li>
+                        <li style="color: #000000;">Call to action</li>
+
+                    </ul>
+
+
+                <p style="color: #000000; text-align: justify;"><a href="https://www.linkedin.com/company/tech-insight-group/?viewAsMember=true">Stay in the loop, follow us on LinkedIn to catch fresh articles every week.</a></p>
+
+                <p style="color: #000000; text-align: justify;">If you're looking to get started with Generative AI, Agentic AI workflows, or migrating your workloads to Microsoft Fabric, partnering with <a href="https://www.techinsightgroup.com/svc-consulting.html">Tech-Insight-Group LLC</a> is your strategic gateway to expert-led consulting and hands-on training services tailored for real-world impact.</p>
+
+                <h5 class="text-primary mt-4">🚨 The Problem</h5>
+                <p style="color: #000000; text-align: justify;">In many IoT environments, raw sensor readings arrive as unstructured, noisy streams. Temperatures spike without warning, pressure levels drift unpredictably, and components behave differently under real‑world load. Without a reliable way to evaluate safety, quantify risk, and understand overall system health, organizations are forced into a reactive posture, discovering failures only after they’ve already caused damage.</p>
+
+
+                <p style="color: #000000; text-align: justify;"><b>Most organizations struggle with:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>standardized thresholds</b> to distinguish “safe” from “unsafe” behavior</li>
+                    <li style="color: #000000; text-align: justify;"><b>No unified risk score</b> to prioritize which assets need attention first</li>
+                    <li style="color: #000000; text-align: justify;"><b>No consolidated view of system health</b>, making it impossible to see emerging patterns</li>
+                    <li style="color: #000000; text-align: justify;"><b>No mechanism to identify the most critical components</b> before they fail</li>
+                    <li style="color: #000000; text-align: justify;"><b>Raw data that is too granular and chaotic</b> to support real‑time decision‑making</li>
+                </ul>     
+                <p style="color: #000000; text-align: justify;">These gaps create operational blind spots, delayed responses, and costly unplanned downtime. In predictive maintenance, that means missed early‑warning signals, inefficient maintenance cycles, and preventable failures—exactly the challenges your article highlights when transforming IoT data into actionable insights.</p>
+
+                <h5 class="text-primary mt-4">Who is this article for?</h5>
+                <p style="color: #000000; text-align: justify;">This article is ideal for data engineers, Python developers, and IoT practitioners who want a simple, functional approach to transforming raw sensor data into actionable insights.</p>
+
+                <h5 class="text-primary mt-4">Introduction:</h5>
+                <p style="color: #000000; text-align: justify;"><b>I created this post to share a quick story from a recent 30‑minute customer call that unexpectedly turned into one of my easiest closes this year</b>. The conversation with the IT manager flowed smoothly, we aligned on the challenges, the solution, the value, and by the time we were wrapping up, the deal was practically sealed. Then, just as the call was about to end, the customer kindly asked, “Do you mind if I bring our developers in for a moment?” Of course, not a problem at all.</p>                
+                <p style="color: #000000; text-align: justify;">When the developers joined, it became clear from the way they phrased their questions that there was some confusion around when to use <b>lambda</b>, <b>map</b>, <b>filter</b>, and <b>reduce</b>, especially as they’ve been using these patterns <b>to perform complex data operations feeding their agentic AI systems and event‑processing workflows</b>.</p>
+                <p style="color: #000000; text-align: justify;">Their questions were thoughtful, but mixed together, so I asked a few clarifying questions to understand how their pipelines were structured. Once I had the full picture, I broke down the business use cases for each function in a simple and practical way.</p>
+                <p style="color: #000000; text-align: justify;">That clarity resonated with them immediately, and that moment helped finalize the contract. moreover, that’s exactly why I’m sharing this post: if even experienced developers are navigating these kinds of questions, it’s worth giving the broader community a clear, real‑world breakdown too.</p>
+                <p style="color: #000000; text-align: justify;">Alright, enough talk. Now let’s get into the practical, hands‑on side of things and use <a href="https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview">Microsoft Fabric Lakehouse</a> as our environment. In the context of manufacturing workflows, where complex data manipulation powers everything from sensor streams to quality‑control decisions, <b>choosing between lambda, map, filter, and reduce can make or break the clarity and efficiency of your pipeline</b>. So let’s break down, in real terms, exactly when you should reach for each one in Python.</p>
+                <p style="color: #000000; text-align: justify;"><b>When Should You Use lambda, map, filter, or reduce in Python?</b></p>
+
+
+                <h5 class="text-primary mt-4">Our Dataset for the Hands‑On Demo</h5>
+
+                <p style="color: #000000; text-align: justify;">To keep things practical, we’ll work with a small sample of manufacturing component readings. Each record represents a component on the production line and includes its <b>ID, temperature, and pressure</b>, exactly the kind of data used in quality checks, anomaly detection, and event‑driven AI workflows:</p>
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+components = [
+    {"id": 1, "temp": 420, "pressure": 30},
+    {"id": 2, "temp": 505, "pressure": 29},
+    {"id": 3, "temp": 350, "pressure": 33},
+    {"id": 4, "temp": 560, "pressure": 31},
+]
+</code></pre>
+
+
+
+
+                <p style="color: #000000; text-align: justify;"><b>Your job:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;">Transform the data</li>
+                    <li style="color: #000000; text-align: justify;">Remove unsafe elements</li>
+                    <li style="color: #000000; text-align: justify;">Aggregate results for reporting</li>
+                </ul>   
+                
+                <p style="color: #000000; text-align: justify;">Let’s apply each function the way it was meant to be used.</p>
+
+                <h5 class="text-primary mt-4">🔹 lambda - Lightweight, Inline Logic:</h5>                
+                <p style="color: #000000; text-align: justify;">In Python, a <b>lambda() function</b> is your go‑to tool when you need a tiny, one‑off function without cluttering your code with extra def statements. Think of it as a quick, disposable function you create on the spot, perfect for small transformations inside pipelines.</p>
+                <p style="color: #000000; text-align: justify;">Let’s start with a very simple <b>lambda()</b> example. Consider that we want to convert a temperature from <b>Fahrenheit (°F) to Celsius (°C)</b>. A <b>lambda</b> is perfect for this because it’s a tiny, one‑off function:</p>                                                
+                
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+# Lambda to convert Fahrenheit → Celsius
+to_celsius = lambda f: (f - 32) * 5/9
+
+temps = [420, 505, 350, 560]
+
+for t in temps:
+    print(f"{t}°F is {round(to_celsius(t), 2)}°C")
+</code></pre>                
+                
+                
+                
+                <p style="color: #000000; text-align: justify;">The screenshot below shows the output of the code above, which <b>converts Fahrenheit (°F) into Celsius (°C)</b>.</p>                
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/4-python-functions-out-1.png" class="img-fluid w-100 rounded" alt="">              
+                <p style="color: #000000; text-align: justify;"></p>
+                
+                <p style="color: #000000; text-align: justify;">Next, in this exploration, we focus on turning raw IoT telemetry into a state where agentic AI can take meaningful, preventative action. By applying a single, intelligent lambda function, each component’s temperature, pressure, and deviation patterns are transformed into a clear Manufacturing Risk and Status.</p>
+                <p style="color: #000000; text-align: justify;">To ensure accuracy and consistent reasoning, <u>we anchor the process with explicit thresholds TEMP_MAX = 500 and PRESSURE_MIN = 30</u>, giving the AI a stable foundation to classify conditions, detect anomalies, and act proactively. This shift moves IoT data from passive monitoring to an actionable, AI‑driven state that supports real‑time intervention and predictive maintenance.</p>
+                
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+# Complex lambda for Manufacturing Risk & Status
+from math import exp
+
+# Tunable thresholds
+TEMP_MAX = 500
+PRESSURE_MIN = 30
+
+# A single, complex lambda:
+# - Derives temp/pressure deviations
+# - Applies a non-linear penalty to overheating (exp)
+# - Builds a composite risk
+# - Produces a status label via nested conditional expressions
+compute_risk = lambda c: {
+    **c,
+    "temp_dev": max(0, c["temp"] - TEMP_MAX),
+    "pressure_dev": max(0, PRESSURE_MIN - c["pressure"]),
+    "risk": (
+        0.7 * (exp(max(0, c["temp"] - TEMP_MAX) / 50) - 1) +   # nonlinear hit for high temp
+        0.3 * max(0, PRESSURE_MIN - c["pressure"])             # linear hit for low pressure
+    ),
+    "status": (
+        "Unsafe" if (c["temp"] > TEMP_MAX or c["pressure"] < PRESSURE_MIN)
+        else ("Warning" if (abs(c["temp"] - TEMP_MAX) <= 5 or abs(c["pressure"] - PRESSURE_MIN) <= 1)
+        else "Safe")
+    )
+}
+
+# Use the lambda (example application)
+transformed = [compute_risk(c) for c in components]
+
+
+for item in transformed:
+    print(item)
+</code></pre>                 
+                
+                
+                <p style="color: #000000; text-align: justify;"><b>What the below output shows and why it’s “agentic AI” + event‑processing aware:</b></p>
+                <p style="color: #000000; text-align: justify;"><b>Your complex lambda enriches each raw reading with derived signals (temp_dev, pressure_dev), a composite risk score, and a status (Safe, Warning, Unsafe)</b>. That transformation <b>turns passive telemetry into actionable state</b> <u>agents can reason over normalized deviations and risk, then choose behaviors (e.g., auto‑route Unsafe parts to a rework queue, raise events for Warning items, or log Safe parts)</u>.</p>                                               
+                <p style="color: #000000; text-align: justify;">In event workflows, the status acts as a routing key (topics/queues like quality.unsafe, quality.warning), the risk score enables priority ordering (triage the highest risk first), and the derived fields provide compact features for downstream policies, dashboards, or predictions. <u>In short, the output moves from raw numbers to decision‑ready records, enabling autonomous agents and stream processors to trigger, prioritize, and persist the right actions in real time.</u></p>
+                
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/4-python-functions-out-2.png" class="img-fluid w-100 rounded" alt="">  
+                <p style="color: #000000; text-align: justify;"></p>
+
+                <p style="color: #000000; text-align: justify;">While it's true, that lambda can also be used to build closures, acting as a lightweight parameterized factory function. For the sake of keeping this article focused and concise, we’ll move past those patterns and shift directly into the map function.</p>              
+
+
+                <h5 class="text-primary mt-4">🔹 map() – Apply a Function to Every Item in a Sequence:</h5> 
+                <p style="color: #000000; text-align: justify;"><u>In Python, <b>map() function</b> is your tool for applying the same transformation to every item in a list (or any iterable) without writing explicit loops</u>. <b>Think of it as a clean, pipeline‑friendly way to process data row‑by‑row: you give map a function, and it feeds each element through that function, returning a new transformed sequence</b>. It’s perfect for data cleaning, feature engineering, batch conversions, and anywhere you want consistent operations applied across an entire dataset.</p>                
+                
+                <p style="color: #000000; text-align: justify;"><b>Best Use Case:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;">Pure transformations.</li>
+                    <li style="color: #000000; text-align: justify;">When using an existing function (math.sqrt, str.strip, etc.).</li>
+                    <li style="color: #000000; text-align: justify;">Lazy processing in a data pipeline (map returns an iterator).</li>
+                </ul>   
+                
+                <p style="color: #000000; text-align: justify;"><b>Avoid When:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;">A list comprehension is more readable</li>
+                    <li style="color: #000000; text-align: justify;">Transform has multiple conditions (list comps handle this better)</li>
+                </ul>  
+
+                <p style="color: #000000; text-align: justify;">This first <b>map()</b> python function demo shows how to apply a uniform transformation across the dataset by adding a Celsius temperature field to every component.</p>
+ 
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+# Converts every temperature from Fahrenheit to Celsius
+to_celsius = lambda f: (f - 32) * 5/9
+
+components_with_c = list(map(
+    lambda c: {**c, "temp_c": round(to_celsius(c["temp"]), 2)},
+    components
+))
+
+# print(components_with_c)
+
+for item in components_with_c:
+    print(item)
+</code></pre>                  
+                
+                
+                <p style="color: #000000; text-align: justify;">The output shows each component enriched with a new <b>temp_c field, which contains its temperature converted from Fahrenheit to Celsius</b>. You may notice that I combined map() with lambda, because using them together is ideal for quick, inline transformations across a sequence without defining a separate function or writing a loop.</p>
+                
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/4-python-functions-out-3.png" class="img-fluid w-100 rounded" alt=""> 
+                <p style="color: #000000; text-align: justify;"></p>
+
+                <p style="color: #000000; text-align: justify;">Now, let’s explore a more advanced <b>map()</b> example to demonstrate how Python can handle richer transformations.</p> 
+
+                
+                <p style="color: #000000; text-align: justify;"><b>Purpose of below codes in a Manufacturing Context</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>Enrich sensor data for decisioning:</b> Adds derived fields (flags, normalized deviations, composite risk) so downstream systems (quality, maintenance, AI agents) can act on meaningful signals, not raw numbers.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Classify components for routing:</b> Assigns status (Safe, Warning, Unsafe) based on temperature/pressure thresholds, enabling event processing: safe → continue line, warning → monitor, unsafe → rework/hold.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Model real operational risk:</b> Uses a non‑linear temperature penalty (exp) because overheating is costlier/dangerous; pressure is penalized linearly, reflecting real production impact.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Standardize metrics for reporting & AI:</b> Normalizes deviations (temp_dev_n, pressure_dev_n) to unitless features, ideal for dashboards, compliance KPIs, and agentic AI features (prioritization, prediction).</li>
+                    <li style="color: #000000; text-align: justify;"><b>Scale with a single pass:</b> Applies the same transformation to every record via map (pipeline‑friendly), producing a clean, enriched dataset for filtering (quality gates) and aggregation (line performance).</li>
+                </ul>                  
+                
+                
+                <p style="color: #000000; text-align: justify;"><b>In short:</b> The below code turns raw readings into actionable intelligence, flagging risk, classifying parts, and preparing standardized features for real‑time routing, reporting, and AI‑driven decisions. To maximize accuracy, your intelligent process works best when thresholds are explicitly defined, which is why we set <b>TEMP_MAX = 500</b> and <b>PRESSURE_MIN = 30</b>.</p>                                                    
+ 
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+from math import exp
+
+TEMP_MAX = 500
+PRESSURE_MIN = 30
+
+normalize_temp = lambda t: max(0, (t - TEMP_MAX) / 100)
+normalize_pressure = lambda p: max(0, (PRESSURE_MIN - p) / 10)
+
+transform = lambda c: {
+    **c,
+    "temp_ok": c["temp"] <= TEMP_MAX,
+    "pressure_ok": c["pressure"] >= PRESSURE_MIN,
+    "temp_dev_n": normalize_temp(c["temp"]),
+    "pressure_dev_n": normalize_pressure(c["pressure"]),
+    "risk": 0.7 * (exp(normalize_temp(c["temp"])) - 1) +
+            0.3 * normalize_pressure(c["pressure"]),
+    "status": (
+        "Unsafe" if (c["temp"] > TEMP_MAX or c["pressure"] < PRESSURE_MIN)
+        else ("Warning" if (abs(c["temp"] - TEMP_MAX) <= 5 or abs(c["pressure"] - PRESSURE_MIN) <= 1)
+        else "Safe")
+    ),
+}
+
+transformed_components = list(map(transform, components))
+
+for item in transformed_components:
+    print(item)
+</code></pre>     
+
+
+                <p style="color: #000000; text-align: justify;">This output shows how the script transforms the raw dataset into AI‑ready signals by adding normalized temperature and pressure deviations, computing a composite risk score, and assigning a status label making each component immediately usable for agentic decision‑making and event‑processing workflows.</p>
+                
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/4-python-functions-out-4.png" class="img-fluid w-100 rounded" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+                <p style="color: #000000; text-align: justify;">You’ve now learned how <b>lambda()</b> works on its own and how it pairs with <b>map()</b> to apply consistent transformations across your data. Let’s continue by looking at the <b>filter() function</b>, and afterward, we’ll dive into <b>reduce()</b> to complete the full processing pipeline.</p>
+                
+                
+                <h5 class="text-primary mt-4">🔹 filter – Select Only the Items That Meet a Condition:</h5>
+                <p style="color: #000000; text-align: justify;">In Python, <b>filter() function</b> is used to keep only the elements in a sequence that satisfy a specific condition. You provide filter with a function, often a lambda that returns True for the items you want to keep and False for the ones you want to discard.</p>
+                <p style="color: #000000; text-align: justify;"><u>Think of it as a built‑in quality gate: everything that passes the condition moves forward, and everything else is filtered out</u>. This makes filter perfect for cleaning datasets, isolating unsafe or out‑of‑spec records, and routing data into the right processing path in analytics, automation, or AI workflows.</p>
+                
+                <p style="color: #000000; text-align: justify;"><b>Example: Simple filter - Keep only unsafe components</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>Business use:</b> Route unsafe parts to a rework/hold queue.</li>
+                    <li style="color: #000000; text-align: justify;"><b>What below codes do:</b> Keeps components where temperature exceeds the limit or pressure is below the minimum.</li>
+                </ul>  
+ 
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+TEMP_MAX = 500
+PRESSURE_MIN = 30
+
+unsafe_components = list(filter(
+    lambda c: (c["temp"] > TEMP_MAX) or (c["pressure"] < PRESSURE_MIN),
+    components
+))
+
+for item in unsafe_components:
+    print(item)
+</code></pre>                   
+                
+                
+                <p style="color: #000000; text-align: justify;">As expected, the filter returned only the components that violate the temperature or pressure limits.</p>
+                
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/4-python-functions-out-5.png" class="img-fluid w-100 rounded" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+                
+                
+                <p style="color: #000000; text-align: justify;">Let’s walk through a more complex filter scenario, where we apply a multi‑condition quality gate using derived metrics.</p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>Business use:</b> Prioritize parts that are near critical (for monitoring) and truly unsafe (for immediate action).</li>
+                </ul>                     
+                
+
+                <p style="color: #000000; text-align: justify;"><b>What it does:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;">Flags parts that are unsafe or near the threshold (tight “warning” band).</li>
+                    <li style="color: #000000; text-align: justify;">Applies a risk floor so you only act on meaningful deviations.</li>
+                    <li style="color: #000000; text-align: justify;">Useful for event processing (route to monitoring vs. rework) and agentic AI prioritization.</li>
+                </ul>     
+ 
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+from math import exp
+
+TEMP_MAX = 500
+PRESSURE_MIN = 30
+
+# First, enrich records (could also be done via map)
+transform = lambda c: {
+    **c,
+    "temp_ok": c["temp"] <= TEMP_MAX,
+    "pressure_ok": c["pressure"] >= PRESSURE_MIN,
+    "temp_dev": max(0, c["temp"] - TEMP_MAX),
+    "pressure_dev": max(0, PRESSURE_MIN - c["pressure"]),
+    "risk": 0.7 * (exp(max(0, c["temp"] - TEMP_MAX) / 50) - 1) +
+            0.3 * max(0, PRESSURE_MIN - c["pressure"])
+}
+
+transformed = list(map(transform, components))
+
+# Complex filter:
+# - Keep parts that are Unsafe OR within a narrow Warning band (near threshold)
+# - Also require risk above a small floor to avoid noise
+critical_or_near = list(filter(
+    lambda c: (
+        (not c["temp_ok"] or not c["pressure_ok"])                           # Unsafe
+        or (abs(c["temp"] - TEMP_MAX) <= 5 or abs(c["pressure"] - PRESSURE_MIN) <= 1)  # Near-threshold Warning
+    ) and (c["risk"] > 0.02),                                                # Risk floor
+    transformed
+))
+
+for item in critical_or_near:
+    print(item)
+</code></pre>    
+
+
+                <p style="color: #000000; text-align: justify;">The output shows exactly how the filter function isolates only the components that meet the complex safety logic specifically those that are either unsafe (failing temperature or pressure checks) or near the warning threshold while also applying a minimum risk floor to avoid noise. After the dataset is enriched with deviations and risk scores using map, filter selects only the records that require attention, producing a clean, action‑ready list of components for event routing, monitoring, or agentic AI decision-making.</p>
+
+                <p style="color: #000000; text-align: justify;"></p>
+
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/4-python-functions-out-6.png" class="img-fluid w-100 rounded" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+
+
+                
+                <p style="color: #000000; text-align: justify;">Up to this point, we’ve explored how Python’s functional tools help us transform raw telemetry into intelligent, structured signals. We started with <b>lambda()</b>, using it for quick, lightweight computations. Then we saw how <b>lambda() + map()</b> work together to apply consistent transformations across every component by adding normalized fields, computing deviations, and generating risk scores.</p>
+                <p style="color: #000000; text-align: justify;">After that, <b>filter()</b> function allowed us to isolate only the records that matter most: unsafe parts, near‑threshold items, or those crossing a minimum risk level. Together, these steps turned simple sensor readings into actionable, event‑ready data that an agentic AI system or event‑processing workflow can immediately act on.</p>
+                <p style="color: #000000; text-align: justify;">Now, let’s focus on <b>reduce()</b> function, the final piece of the puzzle where we collapse the entire dataset into meaningful summaries, rollups, and performance metrics that drive reporting, monitoring, and higher‑level decision‑making.</p>
+                
+                
+                
+                <h5 class="text-primary mt-4">🔹 reduce - Collapse a Sequence Into a Single Result:</h5>
+                <p style="color: #000000; text-align: justify;">In Python, reduce is used to take a sequence of values and repeatedly combine them using a function until only one final result remains. <u>It’s perfect for creating rollups totals, counts, averages, aggregates, or any summary that represents the entire dataset in a single output</u>.</p>
+
+                <p style="color: #000000; text-align: justify;"><b>Example: Simple reduce - Build a compact report (count, unsafe count, averages)</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>Business use:</b> One-pass roll‑up for dashboards and line health.</li>
+                </ul>   
+
+                <p style="color: #000000; text-align: justify;"><b>Why this works well:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;">Single pass over the data.</li>
+                    <li style="color: #000000; text-align: justify;">Produces the key metrics operators and AI agents need for quick decisions.</li>
+                </ul>     
+ 
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+from functools import reduce
+
+TEMP_MAX = 500
+PRESSURE_MIN = 30
+
+summary = reduce(
+    lambda acc, c: {
+        "count":        acc["count"] + 1,
+        "unsafe":       acc["unsafe"] + (1 if (c["temp"] > TEMP_MAX or c["pressure"] < PRESSURE_MIN) else 0),
+        "sum_temp":     acc["sum_temp"] + c["temp"],
+        "sum_pressure": acc["sum_pressure"] + c["pressure"],
+    },
+    components,
+    {"count": 0, "unsafe": 0, "sum_temp": 0, "sum_pressure": 0}
+)
+
+avg_temp = summary["sum_temp"] / summary["count"]
+avg_pressure = summary["sum_pressure"] / summary["count"]
+
+report = {
+    "total events": summary["count"],
+    "unsafe": summary["unsafe"],
+    "avg_temp": round(avg_temp, 2),
+    "avg_pressure": round(avg_pressure, 2),
+}
+
+print(report)
+# {'total': 4, 'unsafe': 2, 'avg_temp': 458.75, 'avg_pressure': 30.75}
+</code></pre>    
+
+
+
+                <p style="color: #000000; text-align: justify;">The output shows the final summary produced by reduce, which collapses the entire dataset into a single report containing the total number of components, how many were unsafe, and the average temperature and pressure across all readings.</p>
+                
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/4-python-functions-out-7.png" class="img-fluid w-100 rounded" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+                
+                <p style="color: #000000; text-align: justify;"><b>Instead of simply aggregating totals and averages like the above output, let’s deliver a richer, more actionable summary that includes:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;">A breakdown of component status: Safe, Warning, and Unsafe</li>
+                    <li style="color: #000000; text-align: justify;">Min/max temperature and pressure across all readings</li>
+                    <li style="color: #000000; text-align: justify;">A prioritized list of the top 3 riskiest components, based on a blended risk score</li>
+                    <li style="color: #000000; text-align: justify;">Standardized features ready for real‑time routing, reporting, and AI‑driven decisions</li>
+                </ul>     
+
+                <p style="color: #000000; text-align: justify;">This enhanced summary not only captures system health at a glance, but also surfaces the most critical issues — enabling predictive maintenance teams to act proactively, not reactively.</p>
+
+ 
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+ from functools import reduce
+from math import exp
+import json
+
+TEMP_MAX = 500
+PRESSURE_MIN = 30
+
+def classify_and_risk(c):
+    temp_ok = c["temp"] <= TEMP_MAX
+    pressure_ok = c["pressure"] >= PRESSURE_MIN
+    status = ("Unsafe" if (not temp_ok or not pressure_ok)
+              else ("Warning" if (abs(c["temp"] - TEMP_MAX) <= 5 or abs(c["pressure"] - PRESSURE_MIN) <= 1)
+              else "Safe"))
+    # Non-linear penalty for overheating; linear for low pressure
+    risk = 0.7 * (exp(max(0, c["temp"] - TEMP_MAX) / 50) - 1) + 0.3 * max(0, PRESSURE_MIN - c["pressure"])
+    return status, risk
+
+initial = {
+    "count": 0,
+    "by_status": {"Safe": 0, "Warning": 0, "Unsafe": 0},
+    "sum_temp": 0,
+    "sum_pressure": 0,
+    "min_temp": float("inf"),
+    "max_temp": float("-inf"),
+    "min_pressure": float("inf"),
+    "max_pressure": float("-inf"),
+    "top_risky": [],  # will store up to top 3 by risk
+}
+
+rollup = reduce(
+    lambda acc, c: (
+        # classify & score
+        (lambda status, risk: {
+            "count": acc["count"] + 1,
+            "by_status": {
+                **acc["by_status"],
+                status: acc["by_status"].get(status, 0) + 1
+            },
+            "sum_temp": acc["sum_temp"] + c["temp"],
+            "sum_pressure": acc["sum_pressure"] + c["pressure"],
+            "min_temp": min(acc["min_temp"], c["temp"]),
+            "max_temp": max(acc["max_temp"], c["temp"]),
+            "min_pressure": min(acc["min_pressure"], c["pressure"]),
+            "max_pressure": max(acc["max_pressure"], c["pressure"]),
+            # maintain top 3 risky components
+            "top_risky": sorted(
+                acc["top_risky"] + [{"id": c["id"], "risk": risk, "temp": c["temp"], "pressure": c["pressure"], "status": status}],
+                key=lambda x: x["risk"],
+                reverse=True
+            )[:3],
+        })  # end of inner lambda
+    )(*classify_and_risk(c)),
+    components,
+    initial
+)
+
+avg_temp = rollup["sum_temp"] / rollup["count"]
+avg_pressure = rollup["sum_pressure"] / rollup["count"]
+
+final_report = {
+    "total": rollup["count"],
+    "status_counts": rollup["by_status"],
+    "avg_temp": round(avg_temp, 2),
+    "avg_pressure": round(avg_pressure, 2),
+    "min_temp": rollup["min_temp"],
+    "max_temp": rollup["max_temp"],
+    "min_pressure": rollup["min_pressure"],
+    "max_pressure": rollup["max_pressure"],
+    "top_risky": rollup["top_risky"],
+}
+
+print(json.dumps(final_report, indent=4))
+# Example:
+# {
+#   'total': 4,
+#   'status_counts': {'Safe': 2, 'Warning': 0, 'Unsafe': 2},
+#   'avg_temp': 458.75,
+#   'avg_pressure': 30.75,
+#   'min_temp': 350,
+#   'max_temp': 560,
+#   'min_pressure': 29,
+#   'max_pressure': 33,
+#   'top_risky': [
+#       {'id': 4, 'risk': 0.575..., 'temp': 560, 'pressure': 31, 'status': 'Unsafe'},
+#       {'id': 2, 'risk': 0.096..., 'temp': 505, 'pressure': 29, 'status': 'Unsafe'},
+#       {'id': 1, 'risk': 0.0, 'temp': 420, 'pressure': 30, 'status': 'Safe'}
+#   ]
+# }
+</code></pre>   
+
+
+
+                <p style="color: #000000; text-align: justify;">This below output shows a deeper insight supports real‑time monitoring, predictive maintenance, and AI‑driven decision‑making by surfacing not just what happened, but where the greatest risks lie.</p>
+                
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/4-python-functions-out-8.png" class="img-fluid w-100 rounded" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+                <h5 class="text-primary mt-4">Summary of Everything Covered (Lambda → Map → Filter → Reduce):</h5>
+
+                <p style="color: #000000; text-align: justify;">Throughout this walkthrough, we explored how Python’s functional tools like <b>lambda(), map(), filter(), and reduce() functions</b> work together to turn raw telemetry into structured, intelligent, decision‑ready data. We saw how lambda provides lightweight, inline logic for quick math and transformations; how map applies those transformations uniformly across every record; how filter selects only the entries that matter (unsafe or near‑threshold); and how reduce collapses the full dataset into meaningful summaries and KPIs for reporting, monitoring, and agentic AI workflows.</p>
+
+                <p style="color: #000000; text-align: justify;"><b>Together, these functions form a clean, pipeline‑friendly approach for processing manufacturing data:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>lambda()</b> enriches each record with derived features.</li>
+                    <li style="color: #000000; text-align: justify;"><b>map()</b> transforms the dataset in bulk.</li>
+                    <li style="color: #000000; text-align: justify;"><b>filter()</b> identifies priority items for action.</li>
+                    <li style="color: #000000; text-align: justify;"><b>reduce()</b> produces final statistical rollups.</li>
+                </ul>  
+
+
+                <p style="color: #000000; text-align: justify;"><b>🔚 TL;DR Summary:</b></p>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>lambda()</b> → tiny, single-expression functions; avoid when complexity grows</li>
+                    <li style="color: #000000; text-align: justify;"><b>map()</b> → transform each element; good for lazy pipelines and existing functions</li>
+                    <li style="color: #000000; text-align: justify;"><b>filter()</b> → keep elements that match a condition; comprehension preferred when logic is complex</li>
+                    <li style="color: #000000; text-align: justify;"><b>reduce()</b> → collapse to a single value; use for custom folds, but not as a replacement for built-ins</li>
+                </ul>     
+
+                <p style="color: #000000; text-align: justify;">For <b>Data/AI pipelines:</b> Use these tools when you need clean transforms, streaming-friendly logic, and memory-safe operations, but lean on comprehensions and built-ins for clarity and speed.</p>
+
+                <h3 class="text-primary mt-4">Call To Action</h3>                 
+                
+
+                <h5 class="text-primary mt-4">💡 Ready to Take the Next Step?</h5>  
+
+                <p style="color: #000000; text-align: justify;">If you’re reading this to kick off your first AI, Data project, streamline your current workflow, or upskill your team for what’s next. <b>Tech-Insight-Group LLC</b> is here to help. We specialize in turning AI potential into practical impact through expert <a href="https://www.techinsightgroup.com/svc-consulting.html">consulting</a> and hands-on <a href="https://www.techinsightgroup.com/svc-1day-training.html">training</a>. Visit our services page to explore how we can support your journey from strategy to execution. Let’s build something extraordinary together.</p>               
+                
+                
+                <h5 class="text-primary mt-4">🙏 We welcome your feedback, let’s connect.</h5>  
+ 
+                <p style="color: #000000; text-align: justify;">Thank you for reading <b>Turning IoT Data into Actionable Insights with Four Python Functions: lambda, map, filter, reduce</b>. If you found this article helpful, feel free to like, share, or leave a comment; we’d love to hear your thoughts.</p>
+                <p style="color: #000000; text-align: justify;">Kudos to our entire team for their dedication, and a special shoutout to <a href="https://www.linkedin.com/in/jeandjoseph/"> Jean Joseph</a>, our <b>Principal Data & AI Architect</b>, whose vision and technical leadership made this work possible.</p>
+   
+                
+
+  <div class="comment-section">
+  <h3>Leave a Comment</h3>
+  <form id="commentForm">
+    <textarea name="comment" rows="5" cols="50" placeholder="Write your comment here..."></textarea><br>
+    <input type="text" name="name" placeholder="Your Name"><br>
+    <button type="submit">Post Comment</button>
+  </form>
+
+  <!-- Area where comments will appear -->
+  <div id="commentList">
+    <h4>Comments:</h4>
+  </div>
+</div>
+
+<script>
+  // Grab the form and comment list
+  const form = document.getElementById("commentForm");
+  const commentList = document.getElementById("commentList");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault(); // stop form from refreshing the page
+
+    // Get values
+    const name = form.name.value.trim();
+    const comment = form.comment.value.trim();
+
+    if (name && comment) {
+      // Create a new comment element
+      const newComment = document.createElement("p");
+      newComment.innerHTML = `<strong>${name}:</strong> ${comment}`;
+
+      // Append to comment list
+      commentList.appendChild(newComment);
+
+      // Clear form fields
+      form.name.value = "";
+      form.comment.value = "";
+    } else {
+      alert("Please enter both name and comment.");
+    }
+  });
+</script>
+              
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Services End -->
+
+
+        <!-- Footer Start -->
+         <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html">
+                            <!-- <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1> -->
+                            <h1 class="text-white fw-bold">Tech-<span class="text-secondary">Insight</span>-Group</h1>
+                        </a>
+                        <p class="mt-4 text-light">Stay connected, follow us on social media!</p>
+                        <div class="d-flex hightech-link">
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Short Link</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="about.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>About us</a>
+                            <a href="contact.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
+                            <a href="service.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Services</a>
+                            <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Projects</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Latest Blog</a> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Help Link</a>
+                        <div class="mt-4 d-flex flex-column help-link">
+                           <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of use</a>-->
+                            <a href="privacy-policy.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of use & Privacy Policy</a>
+                            <!--<a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Helps</a> -->
+                            <a href="faq.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>FAQs</a>
+                            <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact</a>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Contact Us</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> 971 US HIGHWAY 202N STE N BRANCHBURG, NEW JERSEY 08876</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> +1 (201) 948-4170</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> contact@techinsightgroup.com</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Tech-Insight-Group</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <span class="text-light">Designed By<a href="https://htmlcodex.com" class="text-secondary">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+
+</html>
+
+
+
+
