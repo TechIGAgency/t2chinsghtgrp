@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Tech-Insight-Group – Advancing Data, AI & Visualization Through Consulting and Training Services</title>
+        
+        <!-- startFavicon / Browser tab icon -->
+        <!-- Using your image at img/Browser-tab-icon.jpeg. For best results consider adding a .ico or PNG sized versions (favicon.ico, favicon-32x32.png). -->
+        <link rel="icon" href="img/Browser-tab-icon-live-gd.png" type="image/png">
+        <link rel="shortcut icon" href="img/Browser-tab-icon-live-gd.png" type="image/png">
+        <link rel="apple-touch-icon" href="img/Browser-tab-icon-live-gd.png">       
+        <!-- end Favicon / Browser tab icon -->
+                
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div id="topbar"></div>
+        <script src="dislmr/top-bar.js"></script>
+        <script>
+            loadTopbar('topbar'); // or loadTopbar('topbar') if you want to be explicit
+        </script>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div id="navbar"></div>
+
+         <script src="dislmr/navbar.js"></script>
+         <script>
+           loadNavbar('navbar'); // or loadNavbar('navbar') if you want to be explicit
+         </script>
+        <!-- Navbar End -->
+
+        
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header py-5">
+            <div class="container text-center py-5">
+                <h1 class="display-2 text-white mb-4 animated slideInDown">Fabric ML Lifecycle: Success Strategies from Start to Finish Part-3</h1>
+                <!--<nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item" aria-current="page">Services</li>
+                    </ol>
+                </nav>-->
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+
+        <!-- Fact Start -->
+         <!-- 
+        <div class="container-fluid bg-secondary py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">99</h1>
+                            <h5 class="text-white mt-1">Success in getting happy customer</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">25</h1>
+                            <h5 class="text-white mt-1">Thousands of successful business</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">120</h1>
+                            <h5 class="text-white mt-1">Total clients who love HighTech</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">5</h1>
+                            <h5 class="text-white mt-1">Stars reviews given by satisfied clients</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Fact End -->
+
+    <style> .zoom-hover { transition: transform 0.3s ease; } .zoom-hover:hover { transform: scale(1.03); } </style>
+
+        <!-- Services Start -->
+
+<div class="container-fluid py-5 my-5 d-flex justify-content-center">
+    <div class="container pt-5" style="max-width: 1100px;">
+        <div class="row justify-content-center">
+            <div class="col-12 wow fadeIn" data-wow-delay=".5s">
+                <!-- Your full content goes here -->
+
+                <h2 class="text-primary mt-4">Fabric ML Lifecycle: Success Strategies from Start to Finish Part-3 <br> <span class="text-secondary">Focusing on ML Model Training & Evaluation</span></h2>
+                    <img src="img/fb_ml_img_0.png" class="img-fluid w-100 rounded" alt="">
+                    <h3 class="text-primary mt-4"><b>Table of Contents:</b></h3>
+                    <ul class="mb-4">
+                        
+                        <li style="color: #000000;"><b>Introduction to the ML Workflow in Fabric:</b> Why structure and sequencing matter in real‑world machine learning.</li>
+                        <li style="color: #000000;"><b>Dataset Preparation:</b> Splitting the dataset before defining features and labels to prevent data leakage.</li>
+                        <li style="color: #000000;"><b>Feature Engineering & Label Definition:</b> Selecting the right inputs and clarifying the prediction target.</li>
+                        <li style="color: #000000;"><b>Model Training:</b> Running experiments and capturing runs with MLflow.</li>
+                        <li style="color: #000000;"><b>Model Evaluation:</b> Comparing metrics, visualizing performance, and understanding model behavior.</li>
+                        <li style="color: #000000;"><b>Model Registration:</b> Promoting the best model to a governed, versioned asset in the registry.</li>
+                        <li style="color: #000000;"><b>Key Takeaways:</b> What this workflow teaches about responsible, production‑ready ML.</li>
+                        <li style="color: #000000;">Partnering with <a href="https://www.techinsightgroup.com/">Tech-Insight-Group</a>: Your Data Implementation Ally</li>
+                        <li style="color: #000000;">Call to action</li>
+
+                    </ul>
+
+
+                <p style="color: #000000; text-align: justify;"><a href="https://www.linkedin.com/company/tech-insight-group/?viewAsMember=true">Stay in the loop, follow us on LinkedIn to catch fresh articles every week.</a></p>
+
+                <p style="color: #000000; text-align: justify;">This blog was inspired by <a href="https://www.linkedin.com/in/jeandjoseph/">Jean Joseph</a>, a Data & AI driven professional with over tweenty years of experience helping organizations unlock insights through analytics and AI. If you are looking for <a href="https://www.techinsightgroup.com/svc-consulting.html">consulting</a> and <a href="https://www.techinsightgroup.com/svc-1day-training.html">training</a> services, please reach out to the <a href="https://www.techinsightgroup.com/index.html">Tech-Insight-Group LLC</a> team</a>.</p>
+
+                <h5 class="text-primary mt-4">Who is this article for?</h5>
+                <p style="color: #000000; text-align: justify;">These series of article are designed for data professionals, business leaders, and technical teams who want to successfully implement machine learning projects that deliver real business value. Whether you are a data scientist, ML engineer, or decision-maker exploring AI adoption, you’ll benefit from learning a proven, end-to-end strategy from framing the right problem to building and deploying scalable solutions in <a href="https://www.microsoft.com/en-us/microsoft-fabric/resources/data-101/what-is-fabric?msockid=1215ff17aded6042147ae933acea6173">Microsoft Fabric</a>.</p>
+
+                <p style="color: #000000; text-align: justify;">This is a <b>four-part article</b>, and you are currently reading the <b>third part</b>. What is the objective here? It’s to share and remind you how to properly tackle a machine learning (ML) Model Training & Model Evaluation from the ground up.</p>
+
+                <h5 class="text-primary mt-4">Prerequisites for Completing This Hands‑On Exercise</h5>
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b><a href="https://app.fabric.microsoft.com/">Access to a Microsoft Fabric Tenant:</a></b> You must have access to a Microsoft Fabric-enabled tenant. If your organization has not enabled Fabric yet, contact your administrator to activate it.</li>
+                    <li style="color: #000000; text-align: justify;"><b>A Provisioned <a href="https://learn.microsoft.com/en-us/fabric/enterprise/licenses">Fabric Capacity:</a></b> To run notebooks, Spark workloads, and Lakehouse operations, you need a Fabric capacity (F‑SKU or P‑SKU, trial capacity).</li>
+                    <li style="color: #000000; text-align: justify;"><b>A <a href="https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-lakehouse-get-started">Lakehouse</a> in Your Workspace:</b> Create a new Lakehouse where you will store and explore the dataset. This Lakehouse will serve as the foundation for all EDA steps in this article.</li>
+                    <li style="color: #000000; text-align: justify;"><b><a href="https://github.com/jeandjoseph/community/blob/main/AI/ms-fabric/csv/PreprocessedDataset/regression_housing_cleaned.csv">Download and Upload the Pre-processed Dataset:</a></b> Download the <b>regression_housing_cleaned.csv</b> file provided with this article. Then upload it into the Files section of your Lakehouse so it can be accessed by your notebook.</li>
+                    <li style="color: #000000; text-align: justify;"><b>A <a href="https://learn.microsoft.com/en-us/fabric/data-engineering/how-to-use-notebook">Fabric Notebook:</a></b> Create a new Fabric Notebook inside the same workspace. You will run all the code snippets from this article inside that notebook using the built‑in Spark runtime.</li>
+                    <li style="color: #000000; text-align: justify;"><b>Once these prerequisites are complete</b>, you’re ready to follow the hands‑on instructions to perform Model Training and Model Evaluation in Part 3, which will prepare you to deploy the ML model and test it using batch scoring in Part 4.</li>
+                </ul>  
+                
+                
+                <h5 class="text-primary mt-4">Introduction</h5>
+                <p style="color: #000000; text-align: justify;">This is the third article in this four‑part series. In <a href="https://www.linkedin.com/pulse/fabric-ml-lifecycle-success-strategies-from-start-finish-jean-joseph-rijoe/?lipi=urn%3Ali%3Apage%3Ad_flagship3_publishing_post_edit%3Bdp4bE9PGQqawDBKeIgK89w%3D%3D">Part 1</a>, we explored how to properly frame your machine‑learning problem, validate that ML is the right solution, and choose the appropriate model type once the problem is clearly defined. In <a href="https://www.linkedin.com/pulse/copy-fabric-ml-lifecycle-success-strategies-from-start-jean-joseph-pnube/?lipi=urn%3Ali%3Apage%3Ad_flagship3_publishing_post_edit%3Bdp4bE9PGQqawDBKeIgK89w%3D%3D">Part 2</a>, we shifted our attention to the data itself - how to assess its quality, structure, availability, and readiness to support a successful ML initiative. Now, in this Part 3, we focus on model training, evaluation, and registration, turning your prepared dataset into a fully operational and production‑ready machine‑learning solution. Part 4 will be reserved for batch scoring and prediction.</p>
+                <p style="color: #000000; text-align: justify;">As <b>Part 3</b> is solely relying on <a href="https://learn.microsoft.com/en-us/training/modules/generate-batch-predictions-fabric/?source=recommendations">Model Training</a> and <a href="https://mlflow.org/docs/latest/ml/evaluation/">Model Evaluation</a>, it is very important to define what each one is and why they matter. Model training is the process where an algorithm learns patterns from your prepared dataset, adjusting its internal parameters so it can make accurate predictions. Model Evaluation, on the other hand, measures how well that trained model performs on unseen data, helping you understand whether it generalizes beyond the examples it learned from.</p>
+                <p style="color: #000000; text-align: justify;">Both steps are essential because training without evaluation risks building a model that only memorizes the data, while evaluation without proper training provides no meaningful insight. Together, they ensure your machine‑learning solution is not only accurate but also reliable, scalable, and ready for real‑world deployment. Enough talk - now let’s go over the Dataset Introduction narrative.</p>
+
+                <h5 class="text-primary mt-4">Dataset introduction (short narrative)</h5>
+                <p style="color: #000000; text-align: justify;">if you recalled, regression_housing_cleaned.csv represents the finalized version of the housing dataset after completing the full data‑preparation workflow in Part 2, as you can see from the screenshot below. Starting from the raw source, the dataset went through exploratory data analysis (EDA) to identify missing values, outliers, skewed distributions, and categorical variables requiring transformation. </p>
+                <p style="color: #000000; text-align: justify;">Categorical features were then converted into machine‑readable form using one‑hot encoding, and all numeric columns were standardized to ensure consistent scale for downstream modeling. The result is a clean, structured, and fully model‑ready dataset that will serve as the foundation for the regression experiments in the next phase.</p>
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+# Load cleaned housing dataset into a Spark DataFrame
+df_selling_housing = spark.read.csv(
+    # Path to the cleaned regression housing CSV folder
+    "Files/csv/ml/cleaned/regression_housing_cleaned",
+    header=True,          # Use first row as column headers
+    inferSchema=True      # Automatically detect column data types
+)
+
+# Preview a small sample of the dataset
+display(df_selling_housing.limit(5))
+
+# Inspect full schema to verify structure and data types
+df_selling_housing.printSchema()
+</code></pre>
+
+
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_1.png" class="img-fluid w-200 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+
+                <h5 class="text-primary mt-4">Model Training</h5>
+                <p style="color: #000000; text-align: justify;">As our cleaned dataset is ready to go, let us start training the ML model by setting up the foundation every reliable workflow depends on: <a href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html">splitting the data</a>. The first step is to divide the dataset into a training set, where the model actually learns patterns, and a test set, which we hold back to measure how well the model performs on completely unseen data. This separation protects us from overfitting and gives us a realistic sense of how the model will behave once deployed.</p>
+                <p style="color: #000000; text-align: justify;">In some cases, we might also introduce a <b>validation set</b> - a third slice of the data used during model development to tune hyperparameters, compare model variants, and make design decisions without touching the final test set. This keeps the test set truly unbiased and ensures our evaluation remains trustworthy.</p>
+                <p style="color: #000000; text-align: justify;">Let us explain the code below. The below code is used to train the ML model by first creating the essential <b>train/test</b> split. Since <b>Spark DataFrames</b> aren’t directly compatible with <a href="https://scikit-learn.org/stable/index.html">scikit‑learn</a> utilities, we convert our cleaned dataset to a pandas DataFrame before proceeding. From there, we divide the data into two subsets: <b>70% for training</b>, where the model learns underlying patterns, and <b>30% for testing</b>, which we reserve for evaluating how well the model generalizes to unseen data. Printing the row counts helps confirm that the split occurred exactly as expected.</p>
+                
+                <p style="color: #000000; text-align: justify;"><b>A concise breakdown of what the code below is doing:</b></p>
+
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>train_test_split:</b> A utility from sklearn.model_selection that randomly splits your dataset into training and test subsets.</li>
+                    <li style="color: #000000; text-align: justify;"><b>X:</b> The feature matrix (independent variables) used by the model to learn patterns.</li>
+                    <li style="color: #000000; text-align: justify;"><b>y:</b> The target vector (dependent variable) the model is trying to predict.</li>
+                    <li style="color: #000000; text-align: justify;"><b>test_size=0.30:</b> Specifies that 30% of the dataset should be allocated to the test set, leaving 70% for training.</li>
+                    <li style="color: #000000; text-align: justify;"><b>random_state=0:</b> Ensures reproducibility. Using the same random state guarantees the split will be identical each time the code runs.</li>
+                </ul> 
+
+                
+                <p style="color: #000000; text-align: justify;"><b>Resulting variables:</b></p>  
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>X_train:</b> training set features</li>
+                    <li style="color: #000000; text-align: justify;"><b>X_test:</b> test set features</li>
+                    <li style="color: #000000; text-align: justify;"><b>y_train:</b> training set target</li>
+                    <li style="color: #000000; text-align: justify;"><b>y_test:</b> test set target</li>
+                </ul>   
+                
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+from sklearn.model_selection import train_test_split
+
+df_selling_housing = df_selling_housing.toPandas()
+
+# Split the dataset into training and testing sets
+# The data is split into two sets: 70% for training and 30% for testing
+train, test = train_test_split(df_selling_housing, test_size=0.3, random_state=0)
+
+# Print the number of rows in the training and testing sets
+# This helps to verify the split and ensure that the data is divided as expected
+print("Training Rows:", len(train), "Testing Rows:", len(test))
+</code></pre>                
+
+
+              
+                <p style="color: #000000; text-align: justify;">The below screenshot is the output of the above code that clearly shows the amount of data allocated to each subset: <b>700 rows for training and 300 rows for testing, confirming the 70/30 split</b>.</p>
+                
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_2.png" class="img-fluid w-200 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+                
+
+                <h5 class="text-primary mt-4">Defining the Inputs (Features) and the Output (Label)</h5>
+                <p style="color: #000000; text-align: justify;">Now that we have our training and test sets in place, it’s time to define the <b>features</b> and the <b>label</b>. The two core ingredients every supervised ML model relies on. Features are the input variables the model uses to learn patterns, such as square footage, number of bedrooms, or neighborhood. </p>
+                <p style="color: #000000; text-align: justify;">The <b>label</b> is the single output we want the model to predict, like the selling price. Getting this distinction right sets the stage for a clean, well‑structured modeling workflow and ensures the algorithm knows exactly what to learn from and what to predict.</p>
+                <p style="color: #000000; text-align: justify;"><b>Quick explanation of what this code is doing:</b> it defines <b>feature_cols</b> as the full list of input variables (Features) the model will learn from, and <b>label_col</b> as the single output variable (Label). Using the previously created <b>train and test splits</b>, it extracts those feature columns into <b>X_train</b> and <b>X_test</b>, and pulls the label into <b>y_train and y_test</b>. <i><u>The final print statement confirms the number of rows in each set so you can verify that the feature and label arrays align with the original 70/30 dataset split</u></i>.</p>
+                
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+import pandas as pd
+from sklearn.model_selection import train_test_split
+
+# Assume df_selling_housing is already defined
+
+# Define feature columns (all except 'price')
+feature_cols = [
+    "beds", "baths", "sqft", "built_year", "lot_acres", "has_garage",
+    "has_renovation",
+    # city one-hot columns
+    "city_Arlington", "city_Boston", "city_Charlotte", "city_Denver",
+    "city_Edison", "city_Fresno", "city_Grand Rapids", "city_Houston",
+    "city_Idaho Falls", "city_Jacksonville",
+    # neighborhood one-hot columns
+    "neighborhood_Downtown", "neighborhood_Rural", "neighborhood_Suburban"
+]
+
+# Target column
+label_col = "price"
+
+# =========================
+# Feature selection: Extract the features (independent variables)
+# =========================
+X_train = train[feature_cols].values
+X_test  = test[feature_cols].values
+
+# =========================
+# Target selection: Extract the target (dependent variable)
+# =========================
+y_train = train[label_col].values
+y_test  = test[label_col].values
+
+print('Feature and target selection done')
+print("Training Rows:", len(X_train), "Testing Rows:", len(X_test))
+</code></pre>                 
+
+
+                <p style="color: #000000; text-align: justify;">As shown in the output, the feature sets contain 700 training rows and 300 testing rows, perfectly matching the 70/30 split we applied after defining our features and label.</p>                
+                
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_3.png" class="img-fluid w-200 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+
+                <h5 class="text-primary mt-4">Model tracking with MLFlow</h5>
+                <p style="color: #000000; text-align: justify;">So far, <b>we’ve split the dataset and defined our features and label, now it’s time to train the model</b>. But before we go too deep into modeling, <b>it’s critical to establish a robust experiment tracking framework, and that’s where MLflow comes in</b>. <a href="https://mlflow.org/">MLflow</a> lets us log every aspect of the model lifecycle: parameters, metrics, artifacts, and even the model itself. This ensures reproducibility, auditability, and comparability across multiple runs.</p>
+                <p style="color: #000000; text-align: justify;">From a technical standpoint, <b>MLflow</b> integrates seamlessly with <a href="https://scikit-learn.org/stable/index.html">scikit-learn</a>, <a href="https://xgboost.ai/">XGBoost</a>, <a href="https://pytorch.org/">PyTorch</a>, and other frameworks. During training, we can use <b>mlflow.start_run()</b> to initiate a tracking session, then log hyperparameters with <b>mlflow.log_param()</b>, performance metrics like <b>RMSE</b> or <b>R²</b> with <b>mlflow.log_metric()</b>, and persist the trained model using <b>mlflow.sklearn.log_model()</b> or the appropriate flavor. </p>
+                <p style="color: #000000; text-align: justify;"><b>Artifacts</b> such as plots, confusion matrices, or preprocessing pipelines can be stored with <b>mlflow.log_artifact()</b>. Each run is automatically versioned and stored in the MLflow backend, whether that’s local, on a remote server, or integrated with cloud platforms like Azure ML, Microsoft Fabric or Databricks. </p>
+                <p style="color: #000000; text-align: justify;">This setup not only helps us compare model variants but also supports collaboration, rollback, and deployment readiness. In short, MLflow transforms ad hoc experimentation into a structured, production-grade workflow.</p>
+                <p style="color: #000000; text-align: justify;">The good news is, MLflow does integrate smoothly with Microsoft Fabric, giving you native support for experiment tracking, parameter and metric logging, artifact storage, model registration, and deployment directly from <b>Fabric notebooks</b>, but there are several technical considerations to keep in mind to use it effectively.</p>
+                <p style="color: #000000; text-align: justify;">All tracking is workspace‑scoped, meaning runs live inside the Fabric workspace and switching workspaces changes the tracking server, so teams must coordinate where experiments are executed. Artifacts are stored in OneLake, which requires attention to storage quotas, naming conventions, and cleanup. The Model Registry is MLflow‑compatible but governed by Fabric permissions and workspace‑level promotion workflows.</p>
+                <p style="color: #000000; text-align: justify;">Because Fabric notebooks run on managed Spark compute, some MLflow flavors may not be available, library dependencies must be validated, and long‑running jobs should be monitored for session timeouts. For deployment, Fabric supports both batch scoring and real‑time endpoints, but you must plan for scaling, authentication, versioning, and monitoring. And while Fabric includes its own MLflow backend, connecting to an external MLflow server (such as Databricks, Azure ML, or a self‑hosted instance) requires manual tracking URI configuration and appropriate network access.</p>
+                <p style="color: #000000; text-align: justify;">Let us now have a taste of MLflow, this snippet sets the stage for experiment tracking by importing MLflow, defining a dedicated experiment name, and registering it so every training run, metric, and parameter that follows is automatically captured and organized under a single experiment.</p>
+
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+# Import the MLflow library
+import mlflow
+
+# Define the name of the experiment
+experiment_name = "selling-houseing-exp-job"
+
+# Set the experiment in MLflow
+mlflow.set_experiment(experiment_name)
+</code></pre>    
+
+
+                <p style="color: #000000; text-align: justify;">After executing the above code, the output confirms that MLflow successfully created a new experiment named "selling-houseing-exp-job" and registered it for tracking, ensuring that all future runs, parameters, metrics, and artifacts will be logged under this experiment.</p>
+
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_4.png" class="img-fluid w-200 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+
+
+                <h5 class="text-primary mt-4">Trains a regression model using Linear Regression</h5>
+                <p style="color: #000000; text-align: justify;">During <b>Model Training</b>, it’s always ideal to experiment with multiple algorithms to find the best fit for your dataset and business problem. Each model behaves differently depending on feature interactions, noise levels, and data patterns.</p>
+                <p style="color: #000000; text-align: justify;">For this demo, we’re manually comparing just two models (Linear Regression and Decision Tree Regressor), but in real‑world scenarios I strongly recommend leveraging <a href="https://learn.microsoft.com/en-us/fabric/data-science/automated-machine-learning-fabric">AutoML</a>, which is fully supported in Microsoft Fabric and can automatically evaluate dozens of algorithms, tune hyperparameters, and select the most accurate model for you.</p>
+                <p style="color: #000000; text-align: justify;">To proceed with training a <b>Linear Regression Model</b>, we will use below code and this code imports the <b>LinearRegression</b> class, enables <b>MLflow’s</b> automatic logging so every parameter, metric, and model artifact is captured, and then starts an MLflow run where the model is instantiated and fitted on the training data. Inside the run, the model learns the relationship between the features and the target, and a custom parameter (estimator = LinearRegression) is logged so the experiment record clearly reflects which algorithm was used.</p>
+
+
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+# Import the LinearRegression class from scikit-learn
+from sklearn.linear_model import LinearRegression
+
+# Enable automatic logging of parameters, metrics, and models with MLflow
+mlflow.autolog()
+
+# Start an MLflow run
+with mlflow.start_run():
+    # Initialize the LinearRegression model
+    model = LinearRegression()
+    
+    # Fit the model to the training data
+    model.fit(X_train, y_train)
+    
+    # Log a custom parameter to MLflow
+    mlflow.log_param("estimator", "LinearRegression")
+</code></pre>
+
+                <p style="color: #000000; text-align: justify;">The output shows that a new MLflow run named busy_receipt_f5txcwtg was successfully tracked under the experiment selling-houseing-exp-job.</p>
+
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_5.png" class="img-fluid w-200 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+                <p style="color: #000000; text-align: justify;">Now, let’s train the ML model using a <a href="https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html">Decision Tree Regressor</a> and compare its performance with our earlier <b>Linear Regression</b> model to determine which one performs better. This below code is simply training a <b>Decision Tree Regressor</b> under an MLflow‑tracked experiment run: it imports the algorithm, enables MLflow autologging, starts a new run, fits the model on the training data, and records the model choice as a logged parameter so it can be compared against other models later.</p>
+
+
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+# Import the DecisionTreeRegressor class from scikit-learn
+from sklearn.tree import DecisionTreeRegressor
+
+# Enable automatic logging of parameters, metrics, and models with MLflow
+mlflow.autolog()
+
+# Start an MLflow run
+with mlflow.start_run():
+    
+    # Initialize the DecisionTreeRegressor model with a maximum depth of 5
+    model = DecisionTreeRegressor(max_depth=5)
+    
+    # Fit the model to the training data
+    model.fit(X_train, y_train)
+    
+    # Log a custom parameter to MLflow
+    mlflow.log_param("estimator", "DecisionTreeRegressor")
+</code></pre>
+
+
+                <p style="color: #000000; text-align: justify;">The output shows that the <b>Decision Tree</b> model training completed successfully and MLflow recorded it as a new run under the <b>same experiment name, "selling-houseing-exp-job"</b>. This confirms that even though we switched to a completely different algorithm, MLflow kept everything organized within one experiment, allowing us to compare both models side‑by‑side in a single, consistent tracking space.</p>
+
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_6.png" class="img-fluid w-200 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+
+                <h5 class="text-primary mt-4">Evaluating Linear Regression and Decision Tree Regressor Performance</h5>
+                <p style="color: #000000; text-align: justify;"><a href="https://mlflow.org/docs/latest/ml/evaluation/">Model evaluation</a> is essential to measure how well a trained model performs on unseen data, ensuring it generalizes accurately and supports reliable decision-making.</p>
+                <p style="color: #000000; text-align: justify;">This below code retrieves the two most recent <b>MLflow</b> runs from the experiment and extracts key metrics to compare model performance. Let us go and execute the code.</p>
+
+
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+# Define the name of the experiment
+#experiment_name = "experiment-diabetes"
+
+# Retrieve the experiment details by its name
+exp = mlflow.get_experiment_by_name(experiment_name)
+
+# Print the experiment details
+print(exp)
+
+# Search for all runs in the specified experiment
+mlflow.search_runs(exp.experiment_id)
+
+# Search for the most recent two runs in the specified experiment, ordered by start time in descending order
+runs_df = mlflow.search_runs(exp.experiment_id, order_by=["start_time DESC"], max_results=2)
+
+# Select only the important columns for model comparison
+metrics_df = runs_df[[
+    "run_id",
+    "status",
+    "start_time",
+    "end_time",
+    "tags.estimator_name",
+    "metrics.training_score",
+    "metrics.training_mean_absolute_error",
+    "metrics.training_r2_score",
+    "metrics.training_mean_squared_error"
+]]
+
+metrics_df
+</code></pre>
+
+                <p style="color: #000000; text-align: justify;">The output comparison between Linear Regression and Decision Tree Regressor reveals clear performance differences:</p>  
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>Linear Regression</b> achieved a higher R² score of 0.896, indicating it explains nearly 90% of the variance in the target variable, compared to 0.756 from Decision Tree Regressor.</li>
+                    <li style="color: #000000; text-align: justify;">It also had a significantly lower <b>Mean Absolute Error (53,739)</b> versus <b>Decision Tree’s 86,211</b>, meaning its predictions were closer to actual values on average.</li>
+                    <li style="color: #000000; text-align: justify;">The <b>training score</b> and <b>R²</b> score are identical for each model (as expected for scikit-learn regressors), reinforcing that Linear Regression provided a better overall fit.</li>
+                    <li style="color: #000000; text-align: justify;">Both models were tracked under the same MLflow experiment (selling-houseing-exp-job), allowing seamless side-by-side evaluation using tags.estimator_name and key metrics.</li>
+                </ul>  
+                
+                
+                <p style="color: #000000; text-align: justify;"><b>Conclusion:</b> Based on training performance, <b>Linear Regression outperformed Decision Tree Regressor</b> for this dataset.</p>
+
+                
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_7.png" class="img-fluid w-200 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+  
+
+                <p style="color: #000000; text-align: justify;">If you prefer a visual way to compare model performance, this code generates a <b>bar chart of R² scores</b> for the most recent two MLflow runs. It pulls the <b>metrics.training_r2_score</b> and <b>params.estimator</b> from up to five runs, then plots each estimator’s score side-by-side. This makes it easy to see which algorithm achieved the best fit, higher bars mean better predictive accuracy. It’s a quick, intuitive way to spot the top-performing model at a glance.</p>
+
+
+
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+import matplotlib.pyplot as plt
+
+# Assuming df_results contains the evaluation metrics for multiple models
+df_results = mlflow.search_runs(exp.experiment_id, order_by=["start_time DESC"], max_results=5)[["metrics.training_r2_score", "params.estimator"]]
+
+# Create a bar plot to visualize the R2 scores by estimator
+fig, ax = plt.subplots()
+bars = ax.bar(df_results["params.estimator"], df_results["metrics.training_r2_score"])
+
+# Add labels above each bar
+for bar in bars:
+    yval = bar.get_height()
+    ax.text(bar.get_x() + bar.get_width()/2, yval, round(yval, 2), ha='center', va='bottom')
+
+ax.set_xlabel("Estimator")
+ax.set_ylabel("R2 Score")
+ax.set_title("R2 Score by Estimator")
+
+# Display the plot
+plt.show()
+</code></pre>
+
+
+                <p style="color: #000000; text-align: justify;">The output confirms that <b>R² scores</b> for each estimator were successfully visualized in a bar chart.</p>
+
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_8.png" class="img-fluid w-200 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+                <p style="color: #000000; text-align: justify;">To summarize, model evaluation is the step that tells you how well your model truly performs and whether its predictions can be trusted in real‑world scenarios. What we did here was a simplified demonstration, comparing two algorithms and reviewing a few core metrics, but in real projects the evaluation process is far more extensive. It involves deeper validation techniques, fairness and bias checks, robustness testing, monitoring over time, and alignment with Responsible AI principles to ensure models are not only accurate but also ethical, transparent, and safe to deploy.</p>
+
+                <h5 class="text-primary mt-4">ML Model Registration</h5>
+                <p style="color: #000000; text-align: justify;">Consider we are happy with the model evaluation, what comes next is <b>ML model registration</b>, and this step matters far more than people often realize. Model registration is the moment where your “best” model stops being just a file in your notebook and becomes an officially tracked, versioned, and governed asset in your ML lifecycle.</p>
+                <p style="color: #000000; text-align: justify;">It gives you a single source of truth for which model is approved, which version is in use, who created it, and how it performed. This is critical for collaboration, reproducibility, auditing, and smooth deployment. In other words, registration transforms a good model into a production‑ready model that your organization can trust and manage over time.</p>
+                <p style="color: #000000; text-align: justify;">Now, let us start with the <b>ML Model Registration in Farbic</b>. This below code retrieves the most recent MLflow run, extracts its run ID, and then registers the model saved inside that run into the <a href="https://mlflow.org/docs/latest/ml/model-registry">MLflow Model Registry</a>. It essentially takes the best-performing run you want to keep and turns its model into a versioned, trackable asset.</p>
+
+<style>
+.code-block {
+  background-color: #000;       /* Pure black background */
+  color: #fff;                  /* White text */
+  padding: 1em;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  box-shadow: none;            /* Removes any default shadow */
+}
+</style>
+
+<pre class="code-block"><code>
+# Get the most recent experiment run
+exp = mlflow.get_experiment_by_name(experiment_name)
+last_run = mlflow.search_runs(exp.experiment_id, order_by=["start_time DESC"], max_results=2)
+last_run_id = last_run.iloc[1]["run_id"]
+
+# Register the model that was trained in that run
+print("Registering the model from run:", last_run_id)
+
+model_uri = "runs:/{}/model".format(last_run_id)
+
+mv = mlflow.register_model(model_uri, "diabetes-model-community-demo")
+print("Name: {}".format(mv.name))
+print("Version: {}".format(mv.version))
+</code></pre>
+
+                <p style="color: #000000; text-align: justify;">This output confirms that your trained model was successfully registered in the <b>Fabric-integrated MLflow Model Registry</b> under the name regression_selling_housing_demo, and it was assigned version 1.</p>
+                <p style="color: #000000; text-align: justify;">If the model name had already been registered, MLflow would have triggered a <b>status_code: 400</b> error due to a naming conflict. However, MLflow handles this gracefully by automatically creating a new version for example, version 2 under the same model name. So even when the name is already in use, the registration still succeeds as a new version, ensuring smooth version control and traceability.</p>
+
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_9_0.png" class="img-fluid w-200 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+                
+
+                <p style="color: #000000; text-align: justify;">After registration, the model becomes visible in your <b>Microsoft Fabric workspace</b> under the <b>ML model type</b>, just like you see in the screenshot. It appears alongside other assets with metadata such as:</p>  
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;"><b>Model name</b> (e.g., regression_selling_housing_demo)</li>
+                    <li style="color: #000000; text-align: justify;"><b>Workspace location</b> (e.g., live-demo)</li>
+                    <li style="color: #000000; text-align: justify;"><b>Git status</b> (e.g., Uncommitted)</li>
+                    <li style="color: #000000; text-align: justify;"><b>Type</b> (e.g., ML model)</li>
+                </ul>   
+
+                <p style="color: #000000; text-align: justify;"><i>This confirms that the model is now a governed asset in your workspace, ready for version tracking, access control, and future deployment. You can now use it for batch scoring, compare it with other models, or promote it into a deployment pipeline</i>.</p>
+
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_9.png" class="img-fluid w-100 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+                <p style="color: #000000; text-align: justify;">Clicking on the ML model registration takes you directly into the model’s detailed, where you can explore everything that MFLow in Microsoft Fabric captures for you like the model’s metadata, performance metrics, version history, training parameters, and even the available deployment options. This is the central place where each registered version becomes a fully traceable, governed asset in your workspace.</p>
+
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_10.png" class="img-fluid w-100 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+
+                <p style="color: #000000; text-align: justify;">If you click on the <b>View tab</b>, then click on <b>ML model list</b>, you’ll be taken to a detailed page that shows <b>metric comparisons, training details, and full model versioning information</b>. This view lets you quickly inspect each version’s performance metrics, review the parameters used during training, and understand how the model evolved across experiments.</p>
+
+                <p style="color: #000000; text-align: justify;">This view ensures that each model version is fully traceable, reproducible, and ready for deployment and making it easy to compare versions and promote the best one to production. Let me know if you’d like to turn this into a caption, article paragraph, or LinkedIn post.</p>
+                
+                <p style="color: #000000; text-align: justify;"></p>
+                <img src="img/ml_training_img_11.png" class="img-fluid w-100 rounded zoom-hover" alt="">
+                <p style="color: #000000; text-align: justify;"></p>
+
+
+                <p style="color: #000000; text-align: justify;">To summarize, Model registration simply stores your trained model in the Fabric Model Registry as a versioned, governed asset. It gives you:</p>  
+                <ul class="mb-4">
+                    <li style="color: #000000; text-align: justify;">A single source of truth for all model versions</li>
+                    <li style="color: #000000; text-align: justify;">Metadata, lineage, and evaluation history</li>
+                    <li style="color: #000000; text-align: justify;">Traceability for audits and Responsible AI</li>
+                    <li style="color: #000000; text-align: justify;">A clean handoff point between data scientists and ML engineers</li>
+                </ul> 
+
+                <p style="color: #000000; text-align: justify;"><b>Registration</b> = “This model is approved and ready to be used.”</p>
+
+                <h5 class="text-primary mt-4">Key Takeaway:</h5>
+                <p style="color: #000000; text-align: justify;">A reliable ML workflow starts with splitting your dataset before defining features and labels, ensuring that your model never “peeks” at the test data. From there, evaluating model performance, comparing metrics, and registering the best model are essential steps that prepare you for responsible, production‑ready machine learning. Deployment comes next, and we’ll cover that in Part 4 during the testing phase.</p>
+
+
+   
+                <h3 class="text-primary mt-4">Call To Action</h3>                 
+                
+
+                <h5 class="text-primary mt-4">💡 Ready to Take the Next Step?</h5>  
+
+                <p style="color: #000000; text-align: justify;">If you’re reading this to kick off your first AI, Data project, streamline your current workflow, or upskill your team for what’s next. <b>Tech-Insight-Group LLC</b> is here to help. We specialize in turning AI potential into practical impact through expert <a href="https://www.techinsightgroup.com/svc-consulting.html">consulting</a> and hands-on <a href="https://www.techinsightgroup.com/svc-1day-training.html">training</a>. Visit our services page to explore how we can support your journey from strategy to execution. Let’s build something extraordinary together.</p>               
+                
+                
+                <h5 class="text-primary mt-4">🙏 We welcome your feedback, let’s connect.</h5>  
+ 
+                <p style="color: #000000; text-align: justify;">Thank you for reading <b>Fabric ML Lifecycle: Success Strategies from Start to Finish Part-3 Focusing on ML Model Training & Evaluation</p>
+                <p style="color: #000000; text-align: justify;">Kudos to our entire team for their dedication, and a special shoutout to <a href="https://www.linkedin.com/in/jeandjoseph/"> Jean Joseph</a>, our <b>Principal Data & AI Architect</b>, whose vision and technical leadership made this work possible.</p>
+   
+                
+                <br><br>
+              <!-- Area where we can share -->
+
+                <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                    <div class="blog-item position-relative bg-light rounded">
+                        <img src="img/fb_ml_img_0.png" class="img-fluid w-100 rounded-top" alt="">
+                        <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Fabric ML Lifecycle: Success Strategies from Start to Finish Part-3 Focusing on ML Model Training & Evaluation</span>
+                        <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                            <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
+                                <div class="blog-icon-1">
+                                    <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
+                                </div>
+                                <div class="blog-icon-2">
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.techinsightgroup.com/blg-fabric-ml-success-strategies-from-start-2-finish-part-3.html" target="_blank" class="btn btn-social me-1">
+                                    <i class="fab fa-facebook-f text-white"></i>
+                                </a>
+                                <a href="https://twitter.com/intent/tweet?url=https://www.techinsightgroup.com/blg-fabric-ml-success-strategies-from-start-2-finish-part-3.html" target="_blank" class="btn btn-social me-1">
+                                    <i class="fab fa-twitter text-white"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.techinsightgroup.com/blg-fabric-ml-success-strategies-from-start-2-finish-part-3.html" target="_blank" class="btn btn-social me-1">
+                                    <i class="fab fa-linkedin-in text-white"></i>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+              
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Services End -->
+
+
+        <!-- Footer Start -->
+         <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html">
+                            <!-- <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1> -->
+                            <h1 class="text-white fw-bold">Tech-<span class="text-secondary">Insight</span>-Group</h1>
+                        </a>
+                        <p class="mt-4 text-light">Stay connected, follow us on social media!</p>
+                        <div class="d-flex hightech-link">
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Short Link</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="about.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>About us</a>
+                            <a href="contact.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
+                            <a href="service.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Services</a>
+                            <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Projects</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Latest Blog</a> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Help Link</a>
+                        <div class="mt-4 d-flex flex-column help-link">
+                           <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of use</a>-->
+                            <a href="privacy-policy.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of use & Privacy Policy</a>
+                            <!--<a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Helps</a> -->
+                            <a href="faq.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>FAQs</a>
+                            <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact</a>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Contact Us</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> 971 US HIGHWAY 202N STE N BRANCHBURG, NEW JERSEY 08876</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> +1 (201) 948-4170</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> contact@techinsightgroup.com</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Tech-Insight-Group</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <span class="text-light">Designed By<a href="https://htmlcodex.com" class="text-secondary">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+
+</html>
+
+
+
+
