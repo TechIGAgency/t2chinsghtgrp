@@ -493,7 +493,7 @@ print(f"Loading model from: {model_uri}")
 loaded_model = mlflow.pyfunc.load_model(model_uri)
 </code></pre>
 
-            <p style="color: #000000; text-align: justify;">The output confirms that the model was successfully located and downloaded from MLflow. The Livy‑session error can be safely ignored here because we’re only demonstrating the model‑loading step. In a real production environment, you would ensure the Spark session is active before scoring; in this demo, the error simply occurred because the session timed out while notes were being typed.</p>
+            <p style="color: #000000; text-align: justify;">This below output confirms that your MLflow model named <b>regression_selling_housing_demo (version 1)</b> was successfully loaded using <b>mlflow.pyfunc.load_model</b>, with <b>all 9 associated artifacts</b> downloaded efficiently. It’s now fully ready for downstream tasks such as inference, evaluation, or integration into a pipeline, ideal for testing predictions, validating performance, or deploying in a production or demo environment.</p>
 
             <p style="color: #000000; text-align: justify;"></p>
             <img src="img/fb_ml_p4_img_5.png" class="img-fluid w-100 rounded" alt=""/>
@@ -843,6 +843,7 @@ display(spark.table("diabetes_scored").limit(20))
 
 
 </html>
+
 
 
 
