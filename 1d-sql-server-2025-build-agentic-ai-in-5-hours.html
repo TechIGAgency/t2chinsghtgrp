@@ -351,7 +351,40 @@
             <p style="color: #000000; text-align: justify;">
             <strong>Take the next step — empower your team to build real agentic AI chat solutions today.</strong>
             </p>
+                     
+                      <div class="booking-section">
+                        <a class="btn btn-primary" id="booking-link" href="#">Book This Class</a>
+                      </div>
 
+                      <!-- Load Booking Script -->
+                      <script src="dislmr/class-booking-request-email.js"></script>
+                    
+                      <!-- Call the booking function with values -->
+                      <script>
+                        document.addEventListener("DOMContentLoaded", function () {
+                          const link = generateBookingEmail(
+                            "SQL Server 2025 Agentic AI: Build Your First Intelligent Chatbot Workflow in 5 Hours",
+                            "$299",
+                            "in 5 Hours"
+                          );
+                          document.getElementById("booking-link").href = link;
+                        });
+                      </script>
+
+                            
+                        <br><br>
+
+
+                            
+                      <!-- Placeholder for disclaimer -->
+                      <div id="disclaimer-container"></div>
+                    
+                      <!-- Load and call the disclaimer function -->
+                      <script src="dislmr/disclaimer-ms-prd.js"></script>
+                      <script>
+                        injectDisclaimer('disclaimer-container');
+                      </script>    
+                
 
             </div>
         </div>
